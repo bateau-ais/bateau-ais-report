@@ -1,12 +1,12 @@
 ---
-title:    <!-- WRITE TITLE HERE -->
-subtitle: <!-- WRITE SUBTITLE HERE -->
+title:    Détection d'anomalies AIS
+subtitle: Jalon 1
 author: 
-  <!--
-    WRITE AUTHORS HERE
-    list or { name, affiliation }
-  -->
-date: <!-- WRITE DATE HERE -->
+- Noilou Quentin
+- Le Bail Elouarn
+- Veneny François
+- Dufour Nils
+date: 13 octobre 2025
 lang: fr
 
 note_type: reference
@@ -34,4 +34,6 @@ abstract: |
   <!-- ABSTRACT HERE -->
 ---
 
-<!-- WRITE CONTENT -->
+\twocolumn
+
+!include etat_de_lart.md
