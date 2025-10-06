@@ -1,0 +1,16 @@
+filters:
+  - pandoc-include
+  - mermaid-filter
+  - pandoc-crossref
+standalone: true
+template: eisvogel
+
+toc: true
+toc-depth: 3
+
+from: markdown+footnotes+table_captions+implicit_figures+link_attributes
+
+pdf-engine: tectonic
+
+include-in-header:
+  - disable_float.tex
