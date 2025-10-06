@@ -15,6 +15,7 @@ include-resources: src
 
 listings-no-page-break: false
 code-block-font-size: \scriptsize
+fontsize: 10pt
 colorlinks: ff0d8a
 mainfont: Overpass Nerd Font
 sansfont: Overpass Nerd Font
