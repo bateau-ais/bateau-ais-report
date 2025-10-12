@@ -38,10 +38,14 @@ les 6 pages.
 
 ## Principaux axes de recherche
 
-??? articles de recherche implémentent des modèles de machine learning ou
-de deep learning.
+Dans notre sélection, 5 articles de recherche implémentent des modèles de machine
+learning ou de deep learning.
+
 Ils se basent sur des bases de données libres ou non et leur implémentations
 sont rarement disponibles en open-source.
+Ce point là est important à nos yeux, car cela veut dire que la recherche dans ce
+milieu ne propose que peu de transparence.
+
 Voici les étapes qui reviennent dans ces papiers :
 
 1. Récupération des données
