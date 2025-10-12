@@ -12,6 +12,9 @@ lang: fr
 note_type: reference
 writing_type: draft
 include-resources: src
+bibliography: refs.bib
+csl: ieee.csl
+link-citations: true
 
 listings-no-page-break: false
 code-block-font-size: \scriptsize
@@ -42,3 +45,11 @@ abstract: |
 !include Analyse_retentissement.md
 
 !include etat_de_lart.md
+
+\onecolumn
+
+# Références
+
+::: {#refs}
+:::
+

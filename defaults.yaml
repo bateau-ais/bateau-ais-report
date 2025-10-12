@@ -2,6 +2,7 @@ filters:
   - pandoc-include
   - mermaid-filter
   - pandoc-crossref
+  - citeproc
 standalone: true
 template: eisvogel
 
