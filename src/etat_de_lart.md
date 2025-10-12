@@ -3,7 +3,7 @@
 ## Protocole de sélection de papier de recherche
 
 Afin de chercher une liste d'article pertinente, nous nous sommes basés sur
-la méthodologie de Kitchenham [?].
+la méthodologie de Kitchenham [@kitchenhamSystematicReviewSystematic2013].
 
 <!--
 Devons nous vraiment citer Kitchenham sachant que nous n'avons pas relu sa
