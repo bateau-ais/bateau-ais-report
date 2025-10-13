@@ -1197,6 +1197,64 @@ references:
   URL: >-
     https://www.planetoscope.com/Mobilite/1835-marchandises-transportees-par-voie-maritime-dans-le-monde.html
 
+- id: pohontuRealtimeDetectionSpoofed2025
+  abstract: >-
+    The Automatic Identification System (AIS) is vital for maritime safety and
+    surveillance but it remains vulnerable to cyberattacks such as spoofing. In
+    a previous work, a methodology was proposed for detecting falsified AIS data
+    by analysing the stochastic properties of vessel trajectories, which
+    achieved a classification accuracy of over 98% for standard spoofed
+    datasets. However, in anticipation of future spoofing techniques, tests
+    using injected noise in order to mimic the randomness of genuine AIS signals
+    revealed that the initial method’s accuracy declined to nearly 50%. This
+    study proposes an enhanced approach that addresses this limitation by
+    training on datasets where Gaussian noise was added to spoofed vessel
+    coordinates. The noise parameters were statistically derived from genuine
+    maritime trajectories through parametric probability distribution fitting.
+    This aspect allows the employed models to better capture the natural
+    variability of authentic AIS signals. Additionally, unlike the previous
+    offline approach, the improved methodology enables the real-time analysis of
+    vessel tracks rather than relying solely on the post-processing of
+    previously recorded vessel trajectories. To that, two of the proposed deep
+    learning architectures, namely 1D Convolutional Neural Networks (1D CNNs)
+    and Gated Recurrent Units (GRUs) maintained a detection accuracy of 99% even
+    under noisy spoofing conditions, demonstrating a superior robustness and
+    adaptability for real-time maritime surveillance.
+  accessed:
+    - year: 2025
+      month: 10
+      day: 13
+  author:
+    - family: Pohontu
+      given: Alexandru
+    - family: Ermolai
+      given: Vasile
+    - family: Vertan
+      given: Constantin
+    - family: Pohontu
+      given: Andreea
+  citation-key: pohontuRealtimeDetectionSpoofed2025
+  container-title: Studies in Informatics and Control
+  container-title-short: SIC
+  DOI: 10.24846/v34i3y202505
+  ISSN: 12201766, 1841429X
+  issue: '3'
+  issued:
+    - year: 2025
+      month: 9
+      day: 30
+  language: en
+  page: 51-61
+  source: DOI.org (Crossref)
+  title: >-
+    Real-time Detection of Spoofed AIS: Enhancing Maritime Surveillance Against
+    Induced Noise
+  title-short: Real-time Detection of Spoofed AIS
+  type: article-journal
+  URL: >-
+    https://sic.ici.ro/current-issue/real-time-detection-of-spoofed-ais-enhancing-maritime-surveillance-against-induced-noise/
+  volume: '34'
+
 - id: ribeiroAISbasedMaritimeAnomaly2023
   abstract: >-
     Maritime transportation plays an essential role in global trade. Due to the

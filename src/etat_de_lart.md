@@ -32,29 +32,32 @@ mais qui ont été publiés en 2025 afin de réintégrer les papiers les plus r�
 À partir de ces 30 articles, nous les avons lu et nous n'en avons retenu 17 qui
 traitent du sujet de l'AIS.
 
-<!--
-Ajouter ici la liste d'article éventuellement, si nous avons besoin de remplir
-les 6 pages.
--->
+## Tendances des publications
 
-## Principaux axes de recherche
+L'état de l'art autour de la détection d'anomalies sur le système AIS et les méthodes d'intelligence artificielle (IA) appliquées à la cybersécurité maritime est en pleine expansion, comme le montrent les recherches récentes.
+Plusieurs axes émergent clairement dans la littérature scientifique.
 
-Dans notre sélection, 5 articles de recherche implémentent des modèles de machine
-learning ou de deep learning.
+Premièrement, la détection de signaux AIS falsifiés reste un défi majeur.
+Pohontu et al. (2025) proposent une comparaison entre trajectoires simulées et données AIS réelles, soulignant l'efficacité d'algorithmes d'analyse comportementale pour repérer le spoofing avec une précision élevée [@pohontuRealtimeDetectionSpoofed2025].
+Cette approche combinant des données simulées et réelles permet d'améliorer la robustesse des détecteurs d'anomalies.
 
-Ils se basent sur des bases de données libres ou non et leur implémentations
-sont rarement disponibles en open-source.
-Ce point là est important à nos yeux, car cela veut dire que la recherche dans ce
-milieu ne propose que peu de transparence.
+Ensuite, l'usage de l'IA dans la cybersécurité maritime s'élargit avec des revues systématiques comme celle de Miller et al. (2025), qui synthétisent les stratégies de détection des menaces et les mécanismes de réduction du risque fondés sur des approches d'apprentissage automatique et d'apprentissage profond [@millerArtificialIntelligenceMaritime2025].
+Ces méthodes favorisent la détection précoce d'activités malveillantes dans les flux AIS.
 
-Voici les étapes qui reviennent dans ces papiers :
+Parmi les approches spécifiques, Raj et Kumar (2025) mettent en œuvre un modèle Bi-LSTM (Long Short-Term Memory) pour détecter les points de trajet spoofés dans les données AIS, illustrant le fort potentiel des réseaux de neurones récurrents dans l'analyse des séries temporelles maritimes [@nitishrajVesselTrajectoryRoute2025].
+Cette technique permet de capturer efficacement les dépendances temporelles dans les trajectoires des navires.
 
-1. Récupération des données
-2. Filtrage des données manifestement invalides
-3. Enrichissement et normalisation des données
-4. Ajout de données falsifiée
-5. Entraînement du/des modèle(s)
-6. Évaluation de la performance du/des modèle(s)
+La sélection de caractéristiques via des méthodes statistiques, comme présenté par Visky et al. (2025), est également une piste importante pour améliorer la détection d'anomalies.
+L'analyse statistique aide à extraire les variables les plus discriminantes dans les jeux de données AIS afin d'alimenter des modèles d'IA plus performants [@viskyStatisticalAnalysisBasedFeature2025a].
+
+D'autres travaux étudient des méthodes avancées comme la topologie persistante pour l’identification de trajectoires géospatiales anormales, offrant une perspective originale sur la nature des anomalies spatiales en mer (Evans-Lee et Lamb, 2024) [@evans-leeIdentificationAnomalousGeospatial2024].
+
+Enfin, il est important de mentionner la dimension plus large de la sécurité maritime intégrant des aspects de mesure et de communication technologique, ainsi que les risques associés aux attaques radio furtives contre les diffusions AIS, comme analysé par Jiang et al. (2025) [@jiangCurrentStatusBibliometricsBased2025] et Klör et al. (2024) [@klorDudeWheresThat2024].
+Ces travaux soulignent la nécessité d’une défense coordonnée intégrant cybersécurité et sécurité opérationnelle.
+
+En résumé, les recherches récentes convergent vers des solutions hybrides mêlant intelligence artificielle avancée, analyse statistique rigoureuse et validation par données simulées et réelles.
+Ces approches permettent d’améliorer la détection d’anomalies AIS, facteur clé pour renforcer la cybersécurité maritime et la sûreté de la navigation [W4408835171][W4410004931][W4408806682][W4407737541][W4403322254][W4409155591][W4402353371].
+
 
 Nous avons aussi eu un article qui a tenté d'utiliser NUMSYNTH, un framework
 pour générer des "théories" à partir de paramètres numériques.
