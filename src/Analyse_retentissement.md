@@ -1,6 +1,4 @@
 # Analyse du retentissement
-*A finir*
-
 Le public visé par ce projet de détection automatique
 de comportement anormaux sont les secteurs suivants :
 - VTS (Vessel Traffic Service) : il s'agit de système à terre
