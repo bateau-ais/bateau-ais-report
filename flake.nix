@@ -43,19 +43,21 @@
       pandoc-wrapped = pkgs.writeShellScriptBin "pandoc" ''
         exec ${pkgs.pandoc}/bin/pandoc --data-dir=${pandoc-template}/share/pandoc "$@"
       '';
+      
+      buildInputs = with pkgs; [
+        pandoc-wrapped
+        haskellPackages.pandoc-crossref
+        pandoc-include
+        mermaid-filter
+        tectonic
+        git
+        nodePackages.mermaid-cli
+        tex
+      ];
     in {
       # Enhanced development shell with aliases and shortcuts
       devShells.default = pkgs.mkShell {
-        buildInputs = with pkgs; [
-          pandoc-wrapped
-          haskellPackages.pandoc-crossref
-          pandoc-include
-          mermaid-filter
-          tectonic
-          git
-          nodePackages.mermaid-cli
-          tex
-        ];
+        inherit buildInputs;
 
         shellHook = ''
           export FONTCONFIG_FILE=${pkgs.makeFontsConf {
