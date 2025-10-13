@@ -10,7 +10,36 @@
     flake-utils.lib.eachDefaultSystem (system: let
       pkgs = nixpkgs.legacyPackages.${system};
       tex = pkgs.texlive.combine {
-          inherit (pkgs.texlive) scheme-minimal latex-bin;
+          inherit (pkgs.texlive) 
+            scheme-medium
+            adjustbox
+            babel-german
+            background
+            bidi
+            collectbox
+            csquotes
+            everypage
+            filehook
+            footmisc
+            footnotebackref
+            framed
+            fvextra
+            letltxmacro
+            ly1
+            mdframed
+            mweights
+            needspace
+            pagecolor
+            sourcecodepro
+            sourcesanspro
+            titling
+            ucharcat
+            ulem
+            unicode-math
+            upquote
+            xecjk
+            xurl
+            zref;
       };
 
       eisvogelTemplate = pkgs.fetchurl {
@@ -49,24 +78,54 @@
         haskellPackages.pandoc-crossref
         pandoc-include
         mermaid-filter
-        tectonic
+        tex
         git
         nodePackages.mermaid-cli
-        tex
       ];
+
+      shellHook = ''
+        export FONTCONFIG_FILE=${pkgs.makeFontsConf {
+          fontDirectories = with pkgs; [
+            nerd-fonts.overpass
+            nerd-fonts.caskaydia-cove
+          ];
+        }}
+      '';
     in {
       # Enhanced development shell with aliases and shortcuts
       devShells.default = pkgs.mkShell {
         inherit buildInputs;
+        inherit shellHook;
+      };
 
-        shellHook = ''
-          export FONTCONFIG_FILE=${pkgs.makeFontsConf {
-            fontDirectories = with pkgs; [
-              nerd-fonts.overpass
-              nerd-fonts.caskaydia-cove
-            ];
-          }}
+      packages.default = pkgs.stdenv.mkDerivation {
+        name = "bateau-ais-report";
+
+        inherit buildInputs;
+        preBuild = shellHook;
+        src = ./.;
+
+        buildPhase = ''
+          runHook preBuild
+
+          # Set up Tectonic cache directory in the build environment
+          export XDG_CACHE_HOME=$TMPDIR/cache
+          mkdir -p $XDG_CACHE_HOME
+
+          # Use network access for Tectonic downloads
+          export HOME=$TMPDIR
+
+          make
+
+          runHook postBuild
         '';
+        
+        installPhase = ''
+          mkdir -p $out
+          cp -r dist/* $out/
+        '';
+        
+        phases = ["unpackPhase" "buildPhase" "installPhase"];
       };
     });
 }
