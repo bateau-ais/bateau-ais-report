@@ -11,7 +11,7 @@ toc-depth: 3
 
 from: markdown+footnotes+table_captions+implicit_figures+link_attributes
 
-pdf-engine: tectonic
+pdf-engine: xelatex
 
 include-in-header:
   - disable_float.tex

@@ -1,6 +1,7 @@
 TARGET := bateau-ais-report
-PDF_ENGINE := tectonic
+PDF_ENGINE := xelatex
 DEFAULTS := defaults.yaml
+out := dist
 
 all: dist/$(TARGET)
 
@@ -9,11 +10,8 @@ dist/$(TARGET): src/main.md $(DEFAULTS) directories
 		--defaults=$(DEFAULTS) \
 		--pdf-engine=$(PDF_ENGINE) \
 		--resource-path=src \
-		-o dist/$(TARGET).pdf
+		-o $(out)/$(TARGET).pdf
 
 directories:
-	mkdir -p dist
-
-clean:
-	rm dist/*
+	mkdir -p $(out)
 
