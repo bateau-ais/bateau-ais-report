@@ -8,16 +8,16 @@ qui vont de la fourniture de simples messages d'informations aux navires,
 tels que la position des autres navires ou les avertissements
 de dangers météorologiques, à une gestion étendue du trafic
 dans un port ou une voie navigable.
-[\[Source\]](https://www.imo.org/fr/ourwork/safety/pages/vesseltrafficservices.aspx) ;
+[@ServicesTraficMaritime] ;
 - CROSS (Centre Régionaux Opérationnels de Surveillance et de Sauvetage) :
 la mission de sauvetage en mer est coordonnée par les CROSS
 à l'intérieur des zones sous reponsabilité française,
 en métropole et outre-mer.
-[\[Source\]](https://www.mer.gouv.fr/surveillance-et-sauvetage-en-mer) ;
+[@SurveillanceSauvetageMer] ;
 - FOC (Fleet Operation Center) : peut servir plusieurs
 objectifs de management de flottes dans le domaine commercial
 et gouvernemental.
-[\[Source\]](https://constanttech.com/implementing-a-fleet-operations-center/).
+[@yangHarnessingPowerMachine2024]
 
 Dans le cadre d'opérations de surveillance des navires (VTS ou FOC par exemple),
 notre solution pourrait permettre de détecter automatiquement et avec fiabilité
