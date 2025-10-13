@@ -332,81 +332,7 @@ references:
     https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2023.1151188/full
   volume: '5'
 
-- id: HarnessingPowerMachine2024
-  abstract: >-
-    Automatic Identification System (AIS) data holds immense research value in
-    the maritime industry because of its massive scale and the ability to revea…
-  accessed:
-    - year: 2025
-      month: 9
-      day: 22
-  citation-key: HarnessingPowerMachine2024
-  container-title: 'Transportation Research Part E: Logistics and Transportation Review'
-  DOI: 10.1016/j.tre.2024.103426
-  ISSN: 1366-5545
-  issued:
-    - year: 2024
-      month: 3
-      day: 1
-  language: en-US
-  page: '103426'
-  publisher: Pergamon
-  source: www.sciencedirect.com
-  title: >-
-    Harnessing the power of Machine learning for AIS Data-Driven maritime
-    Research: A comprehensive review
-  title-short: >-
-    Harnessing the power of Machine learning for AIS Data-Driven maritime
-    Research
-  type: article-journal
-  URL: https://www.sciencedirect.com/science/article/pii/S1366554524000164
-  volume: '183'
-
 - id: hossainEnhancingMarineRadar2024
-  accessed:
-    - year: 2025
-      month: 10
-      day: 1
-  author:
-    - family: Hossain
-      given: Md. Alamgir
-    - family: Hossain
-      given: Md. Sharafat
-    - family: Hossain
-      given: Md Delwar
-    - family: Islam
-      given: Md. Saiful
-    - family: Mustafa
-      given: Hossen Asiful
-    - family: Rahman
-      given: Md. Mahbubur
-  citation-key: hossainEnhancingMarineRadar2024
-  container-title: >-
-    2024 2nd International Conference on Information and Communication
-    Technology (ICICT)
-  DOI: 10.1109/ICICT64387.2024.10839737
-  event-place: Dhaka, Bangladesh
-  event-title: >-
-    2024 2nd International Conference on Information and Communication
-    Technology (ICICT)
-  ISBN: 979-8-3315-0822-7
-  issued:
-    - year: 2024
-      month: 10
-      day: 21
-  license: https://doi.org/10.15223/policy-029
-  page: 279-283
-  publisher: IEEE
-  publisher-place: Dhaka, Bangladesh
-  source: DOI.org (Crossref)
-  title: >-
-    Enhancing Marine Radar Security Through Semi-Supervised Learning: A
-    Self-Training Approach
-  title-short: Enhancing Marine Radar Security Through Semi-Supervised Learning
-  type: paper-conference
-  URL: https://ieeexplore.ieee.org/document/10839737/
-
-- id: hossainEnhancingMarineRadar2024a
   abstract: >-
     Marine radar systems are essential for maritime safety but are increasingly
     vulnerable to cyber-attacks. This research presents a method to improve
@@ -438,7 +364,7 @@ references:
       given: Hossen Asiful
     - family: Rahman
       given: Md. Mahbubur
-  citation-key: hossainEnhancingMarineRadar2024a
+  citation-key: hossainEnhancingMarineRadar2024
   container-title: >-
     2024 2nd International Conference on Information and Communication
     Technology (ICICT)
@@ -453,6 +379,50 @@ references:
       month: 10
       day: 21
   language: en
+  license: https://doi.org/10.15223/policy-029
+  page: 279-283
+  publisher: IEEE
+  publisher-place: Dhaka, Bangladesh
+  source: DOI.org (Crossref)
+  title: >-
+    Enhancing Marine Radar Security Through Semi-Supervised Learning: A
+    Self-Training Approach
+  title-short: Enhancing Marine Radar Security Through Semi-Supervised Learning
+  type: paper-conference
+  URL: https://ieeexplore.ieee.org/document/10839737/
+
+- id: hossainEnhancingMarineRadar2024a
+  accessed:
+    - year: 2025
+      month: 10
+      day: 1
+  author:
+    - family: Hossain
+      given: Md. Alamgir
+    - family: Hossain
+      given: Md. Sharafat
+    - family: Hossain
+      given: Md Delwar
+    - family: Islam
+      given: Md. Saiful
+    - family: Mustafa
+      given: Hossen Asiful
+    - family: Rahman
+      given: Md. Mahbubur
+  citation-key: hossainEnhancingMarineRadar2024a
+  container-title: >-
+    2024 2nd International Conference on Information and Communication
+    Technology (ICICT)
+  DOI: 10.1109/ICICT64387.2024.10839737
+  event-place: Dhaka, Bangladesh
+  event-title: >-
+    2024 2nd International Conference on Information and Communication
+    Technology (ICICT)
+  ISBN: 979-8-3315-0822-7
+  issued:
+    - year: 2024
+      month: 10
+      day: 21
   license: https://doi.org/10.15223/policy-029
   page: 279-283
   publisher: IEEE
@@ -492,64 +462,6 @@ references:
   type: article-journal
   URL: https://www.sciencedirect.com/science/article/pii/S2590005625000839
   volume: '27'
-
-- id: ipharDataIntegrityAssessment2020
-  accessed:
-    - year: 2025
-      month: 4
-      day: 1
-  author:
-    - family: Iphar
-      given: Clément
-    - family: Ray
-      given: Cyril
-    - family: Napoli
-      given: Aldo
-  citation-key: ipharDataIntegrityAssessment2020
-  container-title: Expert Systems with Applications
-  container-title-short: Expert Systems with Applications
-  DOI: 10.1016/j.eswa.2020.113219
-  ISSN: '09574174'
-  issued:
-    - year: 2020
-      month: 6
-  language: en
-  page: '113219'
-  source: DOI.org (Crossref)
-  title: Data integrity assessment for maritime anomaly detection
-  type: article-journal
-  URL: https://linkinghub.elsevier.com/retrieve/pii/S0957417420300452
-  volume: '147'
-
-- id: ipharExpertbasedMethodRisk2020
-  accessed:
-    - year: 2025
-      month: 4
-      day: 1
-  author:
-    - family: Iphar
-      given: Clément
-    - family: Napoli
-      given: Aldo
-    - family: Ray
-      given: Cyril
-  citation-key: ipharExpertbasedMethodRisk2020
-  container-title: Applied Ocean Research
-  container-title-short: Applied Ocean Research
-  DOI: 10.1016/j.apor.2020.102337
-  ISSN: '01411187'
-  issued:
-    - year: 2020
-      month: 11
-  language: en
-  page: '102337'
-  source: DOI.org (Crossref)
-  title: >-
-    An expert-based method for the risk assessment of anomalous maritime
-    transportation data
-  type: article-journal
-  URL: https://linkinghub.elsevier.com/retrieve/pii/S0141118720304314
-  volume: '104'
 
 - id: jiangCurrentStatusBibliometricsBased2025
   abstract: >-
@@ -666,96 +578,7 @@ references:
     https://springerrevues.ezproxy.univ-ubs.fr/article/10.1007/s12198-025-00298-8
   volume: '18'
 
-- id: kitchenhamSystematicReviewSystematic2013
-  abstract: >-
-    Objective: To identify, evaluate and synthesize research published by
-    software engineering researchers concerning their experiences of performing
-    SRs and their proposals for improving the SR process.
-
-    Method: We undertook a systematic review of papers reporting experiences of
-    undertaking SRs and/or discussing techniques that could be used to improve
-    the SR process. Studies were classiﬁed with respect to the stage in the SR
-    process they addressed, whether they related to education or problems faced
-    by novices and whether they proposed the use of textual analysis tools.
-
-    Results: We identiﬁed 68 papers reporting 63 unique studies published in SE
-    conferences and journals between 2005 and mid-2012. The most common
-    criticisms of SRs were that they take a long time, that SE digital libraries
-    are not appropriate for broad literature searches and that assessing the
-    quality of empirical studies of different types is difﬁcult.
-
-    Conclusion: We recommend removing advice to use structured questions to
-    construct search strings and including advice to use a quasi-gold standard
-    based on a limited manual search to assist the construction of search stings
-    and evaluation of the search process. Textual analysis tools are likely to
-    be useful for inclusion/exclusion decisions and search string construction
-    but require more stringent evaluation. SE researchers would beneﬁt from
-    tools to manage the SR process but existing tools need independent
-    validation. Quality assessment of studies using a variety of empirical
-    methods remains a major problem.
-  accessed:
-    - year: 2025
-      month: 10
-      day: 12
-  author:
-    - family: Kitchenham
-      given: Barbara
-    - family: Brereton
-      given: Pearl
-  citation-key: kitchenhamSystematicReviewSystematic2013
-  container-title: Information and Software Technology
-  container-title-short: Information and Software Technology
-  DOI: 10.1016/j.infsof.2013.07.010
-  ISSN: '09505849'
-  issue: '12'
-  issued:
-    - year: 2013
-      month: 12
-  language: en
-  page: 2049-2075
-  source: DOI.org (Crossref)
-  title: >-
-    A systematic review of systematic review process research in software
-    engineering
-  type: article-journal
-  URL: https://linkinghub.elsevier.com/retrieve/pii/S0950584913001560
-  volume: '55'
-
 - id: klorDudeWheresThat2024
-  accessed:
-    - year: 2025
-      month: 10
-      day: 1
-  author:
-    - family: Klör
-      given: Felix
-    - family: Bauer
-      given: Jan
-    - family: Paulus
-      given: Sachar
-    - family: Rademacher
-      given: Michael
-  citation-key: klorDudeWheresThat2024
-  container-title: 2024 IEEE 49th Conference on Local Computer Networks (LCN)
-  DOI: 10.1109/LCN60385.2024.10639674
-  event-place: Normandy, France
-  event-title: 2024 IEEE 49th Conference on Local Computer Networks (LCN)
-  ISBN: 979-8-3503-8800-8
-  issued:
-    - year: 2024
-      month: 10
-      day: 8
-  license: https://doi.org/10.15223/policy-029
-  page: 1-7
-  publisher: IEEE
-  publisher-place: Normandy, France
-  source: DOI.org (Crossref)
-  title: Dude, Where’s That Ship? Stealthy Radio Attacks Against AIS Broadcasts
-  title-short: Dude, Where’s That Ship?
-  type: paper-conference
-  URL: https://ieeexplore.ieee.org/document/10639674/
-
-- id: klorDudeWheresThat2024a
   abstract: >-
     The Maritime Transportation System (MTS) is the foundation of global trade,
     a crucial pillar of our economy’s supply chains, but also critical to energy
@@ -789,7 +612,7 @@ references:
       given: Sachar
     - family: Rademacher
       given: Michael
-  citation-key: klorDudeWheresThat2024a
+  citation-key: klorDudeWheresThat2024
   container-title: 2024 IEEE 49th Conference on Local Computer Networks (LCN)
   DOI: 10.1109/LCN60385.2024.10639674
   event-place: Normandy, France
@@ -800,6 +623,40 @@ references:
       month: 10
       day: 8
   language: en
+  license: https://doi.org/10.15223/policy-029
+  page: 1-7
+  publisher: IEEE
+  publisher-place: Normandy, France
+  source: DOI.org (Crossref)
+  title: Dude, Where’s That Ship? Stealthy Radio Attacks Against AIS Broadcasts
+  title-short: Dude, Where’s That Ship?
+  type: paper-conference
+  URL: https://ieeexplore.ieee.org/document/10639674/
+
+- id: klorDudeWheresThat2024a
+  accessed:
+    - year: 2025
+      month: 10
+      day: 1
+  author:
+    - family: Klör
+      given: Felix
+    - family: Bauer
+      given: Jan
+    - family: Paulus
+      given: Sachar
+    - family: Rademacher
+      given: Michael
+  citation-key: klorDudeWheresThat2024a
+  container-title: 2024 IEEE 49th Conference on Local Computer Networks (LCN)
+  DOI: 10.1109/LCN60385.2024.10639674
+  event-place: Normandy, France
+  event-title: 2024 IEEE 49th Conference on Local Computer Networks (LCN)
+  ISBN: 979-8-3503-8800-8
+  issued:
+    - year: 2024
+      month: 10
+      day: 8
   license: https://doi.org/10.15223/policy-029
   page: 1-7
   publisher: IEEE
@@ -865,51 +722,6 @@ references:
   type: paper-conference
   URL: https://ieeexplore.ieee.org/document/10671165/
 
-- id: liMaritimeCybersecurityComprehensive2024
-  abstract: >-
-    The maritime industry stands at a critical juncture, where the imperative
-    for technological advancement intersects with the pressing need for robust
-    cybersecurity measures. Maritime cybersecurity refers to the protection of
-    computer systems and digital assests within the maritime industry, as well
-    as the broader network of interconnected components that make up the
-    maritime ecosystem. In this survey, we aim to identify the significant
-    domains of maritime cybersecurity and measure their effectiveness. We have
-    provided an in-depth analysis of threats in key maritime systems, including
-    AIS, GNSS, ECDIS, VDR, RADAR, VSAT, and GMDSS, while exploring real-world
-    cyber incidents that have impacted the sector. A multi-dimensional taxonomy
-    of maritime cyber attacks is presented, offering insights into threat
-    actors, motivations, and impacts. We have also evaluated various security
-    solutions, from integrated solutions to component specific solutions.
-    Finally, we have shared open challenges and future solutions. In the
-    supplementary section, we have presented definitions and vulnerabilities of
-    vessel components that have discussed in this survey. By addressing all
-    these critical issues with key interconnected aspects, this review aims to
-    foster a more resilient maritime ecosystem.
-  accessed:
-    - year: 2025
-      month: 4
-      day: 1
-  author:
-    - family: Li
-      given: Meixuan
-    - family: Zhou
-      given: Jianying
-    - family: Chattopadhyay
-      given: Sudipta
-    - family: Goh
-      given: Mark
-  citation-key: liMaritimeCybersecurityComprehensive2024
-  DOI: 10.48550/ARXIV.2409.11417
-  issued:
-    - year: 2024
-  license: arXiv.org perpetual, non-exclusive license
-  publisher: arXiv
-  source: DOI.org (Datacite)
-  title: 'Maritime Cybersecurity: A Comprehensive Review'
-  title-short: Maritime Cybersecurity
-  type: article
-  URL: https://arxiv.org/abs/2409.11417
-
 - id: longoEnablingRealTimeRemote2023
   abstract: >-
     This paper uses data processing techniques to reduce the required
@@ -963,57 +775,6 @@ references:
   type: article-journal
   URL: https://ieeexplore.ieee.org/document/10085923/
   volume: '24'
-
-- id: louartDetectionAISMessages2023
-  abstract: >-
-    Automatic identification system is a navigation aid system that allows
-    vessels to exchange automatically positions, identity and other information.
-    It improves the safety of the maritime traffic and helps to monitor it.
-    However, this system can be manipulated to send falsified information and to
-    mask illicit activities. While previous research has proposed strategies to
-    detect these threats, none of them suggest a solution that considers the
-    time-division multiple access (TDMA) communication protocol. In this work,
-    the compliance of the sent messages with this protocol, specified by the
-    system's standard, is checked for every ship to detect message
-    falsifications. Furthermore, because the ships velocity affects TDMA
-    protocol, a strategy based a Kalman filter is applied to track every ship
-    and to assess the consistency of their velocity data sent. The proposed
-    strategy was validated on real data and showed very promising results. Being
-    computationally cheap, the method can be run in real time. Source codes of
-    the method are open-source to foster research activities from both industry
-    and academia in this field.
-  accessed:
-    - year: 2025
-      month: 9
-      day: 17
-  author:
-    - family: Louart
-      given: Maelic
-    - family: Szkolnik
-      given: Jean-Jacques
-    - family: Boudraa
-      given: Abdel-Ouahab
-    - family: Le Lann
-      given: Jean-Christophe
-    - family: Le Roy
-      given: Frédéric
-  citation-key: louartDetectionAISMessages2023
-  container-title: Digital Signal Processing
-  container-title-short: Digital Signal Processing
-  DOI: 10.1016/j.dsp.2023.103983
-  ISSN: 1051-2004
-  issued:
-    - year: 2023
-      month: 5
-      day: 1
-  page: '103983'
-  source: ScienceDirect
-  title: >-
-    Detection of AIS messages falsifications and spoofing by checking messages
-    compliance with TDMA protocol
-  type: article-journal
-  URL: https://www.sciencedirect.com/science/article/pii/S1051200423000787
-  volume: '136'
 
 - id: millerArtificialIntelligenceMaritime2025
   abstract: >-
@@ -1122,49 +883,6 @@ references:
   URL: https://publications.drdo.gov.in/ojs/index.php/dsj/article/view/20464
   volume: '75'
 
-- id: PDFDetectionSpoofed2025
-  abstract: >-
-    PDF | The Automatic Identification System (AIS) is a valuable tool for
-    enhancing maritime safety and security, primarily through its vessel
-    tracking and... | Find, read and cite all the research you need on
-    ResearchGate
-  accessed:
-    - year: 2025
-      month: 9
-      day: 17
-  citation-key: PDFDetectionSpoofed2025
-  container-title: ResearchGate
-  DOI: 10.33436/v35i1y202503
-  issued:
-    - year: 2025
-      month: 8
-      day: 6
-  language: en
-  source: www.researchgate.net
-  title: '(PDF) Detection of spoofed AIS: Simulated tracks vs. real maritime data'
-  title-short: (PDF) Detection of spoofed AIS
-  type: article-journal
-  URL: >-
-    https://www.researchgate.net/publication/390021454_Detection_of_spoofed_AIS_Simulated_tracks_vs_real_maritime_data
-
-- id: PDFTrafficRoute
-  abstract: >-
-    PDF | Automatic Identification System (AIS) technology is useful for
-    collision avoidance and on-line vessel monitoring, but also provides
-    valuable... | Find, read and cite all the research you need on ResearchGate
-  accessed:
-    - year: 2025
-      month: 9
-      day: 17
-  citation-key: PDFTrafficRoute
-  container-title: ResearchGate
-  language: en
-  source: www.researchgate.net
-  title: (PDF) Traffic Route Extraction and Anomaly Detection from AIS Data
-  type: paper-conference
-  URL: >-
-    https://www.researchgate.net/publication/258630626_Traffic_Route_Extraction_and_Anomaly_Detection_from_AIS_Data
-
 - id: pohontuDetectionSpoofedAIS2025
   accessed:
     - year: 2025
@@ -1197,55 +915,6 @@ references:
   URL: >-
     https://rria.ici.ro/en/vol-35-no-1-2025/detection-of-spoofed-ais-simulated-tracks-vs-real-maritime-data/
   volume: '35'
-
-- id: ribeiroAISbasedMaritimeAnomaly2023
-  abstract: >-
-    Maritime transportation plays an essential role in global trade. Due to the
-    huge number of vessels worldwide, there is also a non-negligible volume of
-    Maritime incidents such as collisions/sinking and illegal events (e.g.,
-    piracy, smuggling, and unauthorized fishing). Electronic equipment/systems,
-    such as radars and Automatic Identification Systems (AIS), have contributed
-    to improving maritime situational awareness. AIS provides one of the
-    fundamental sources of vessel kinematics and static data. Today, many
-    approaches are focused on automatically detecting the vessels’ traffic
-    behavior and discovering useful patterns and deviations from those data.
-    These studies contribute to detecting suspicious activities and anomalous
-    trajectories, whose developed techniques could be applied in the
-    surveillance systems, helping the authorities to anticipate proper actions.
-    Several concerns and difficulties are involved in the analyses of vessel
-    kinematics data: how to deal with big data generated, inconsistencies,
-    irregular updates, dynamic data, unlabeled data, and evaluation. This
-    article presents the approaches, constraints, and challenges in maritime
-    traffic anomaly detection research, presenting a review, a taxonomy, and a
-    discussion of the proposed approaches.
-  accessed:
-    - year: 2025
-      month: 3
-      day: 20
-  author:
-    - family: Ribeiro
-      given: Claudio V.
-    - family: Paes
-      given: Aline
-    - family: Oliveira
-      given: Daniel
-      dropping-particle: de
-  citation-key: ribeiroAISbasedMaritimeAnomaly2023
-  container-title: Expert Systems with Applications
-  container-title-short: Expert Systems with Applications
-  DOI: 10.1016/j.eswa.2023.120561
-  ISSN: 0957-4174
-  issued:
-    - year: 2023
-      month: 11
-      day: 30
-  page: '120561'
-  source: ScienceDirect
-  title: 'AIS-based maritime anomaly traffic detection: A review'
-  title-short: AIS-based maritime anomaly traffic detection
-  type: article-journal
-  URL: https://www.sciencedirect.com/science/article/pii/S0957417423010631
-  volume: '231'
 
 - id: rivkinMaritimeCybersecurityNavigational2023
   abstract: >-
@@ -1283,35 +952,6 @@ references:
   type: article-journal
   URL: https://springerrevues.ezproxy.univ-ubs.fr/article/10.1134/S207510872470010X
   volume: '14'
-
-- id: ServicesTraficMaritime
-  accessed:
-    - year: 2025
-      month: 10
-      day: 13
-  citation-key: ServicesTraficMaritime
-  language: FR
-  title: Services de trafic maritime
-  type: webpage
-  URL: https://www.imo.org/fr/ourwork/safety/pages/vesseltrafficservices.aspx
-
-- id: SurveillanceSauvetageMer
-  abstract: >-
-    En France, les CROSS assurent la mission de sauvetage et de recherche en
-    mer. En cas d'urgence, appelez les secours en mer au 196 quand vous vous
-    trouvez sur le littoral, ou composez le 18 pour appeler les
-    sapeurs-pompiers.
-  accessed:
-    - year: 2025
-      month: 10
-      day: 13
-  citation-key: SurveillanceSauvetageMer
-  language: fr
-  title: >-
-    Surveillance et sauvetage en mer | Ministère de la Transition écologique, de
-    la Biodiversité, de la Forêt, de la Mer et de la Pêche
-  type: webpage
-  URL: https://www.mer.gouv.fr/surveillance-et-sauvetage-en-mer
 
 - id: symesCyberattacksMaritimeSector2024
   abstract: >-
@@ -1378,61 +1018,7 @@ references:
     https://springerrevues.ezproxy.univ-ubs.fr/article/10.1007/s11804-024-00443-0
   volume: '23'
 
-- id: technologiesImplementingFleetOperations2018
-  abstract: >-
-    Discover tips on implementing a Fleet Operations Center and how it can serve
-    a number of purposes for commercial & government management of fleets.
-  accessed:
-    - year: 2025
-      month: 10
-      day: 13
-  author:
-    - family: Technologies
-      given: Constant
-  citation-key: technologiesImplementingFleetOperations2018
-  container-title: Constant Technologies
-  issued:
-    - year: 2018
-      month: 7
-      day: 12
-  language: en-US
-  title: Implementing a Fleet Operations Center | Constant Tech
-  type: webpage
-  URL: https://constanttech.com/implementing-a-fleet-operations-center/
-
 - id: thakurArtificialIntelligenceMaritime2025
-  accessed:
-    - year: 2025
-      month: 10
-      day: 1
-  author:
-    - family: Thakur
-      given: Aman Singh
-    - family: Alex
-      given: T. Lawrence
-    - family: Nighojkar
-      given: Amrita
-  citation-key: thakurArtificialIntelligenceMaritime2025
-  container-title: 'Journal of The Institution of Engineers (India): Series C'
-  container-title-short: J. Inst. Eng. India Ser. C
-  DOI: 10.1007/s40032-025-01169-w
-  ISSN: 2250-0545, 2250-0553
-  issue: '2'
-  issued:
-    - year: 2025
-      month: 4
-  language: en
-  page: 665-689
-  source: DOI.org (Crossref)
-  title: >-
-    Artificial Intelligence in Maritime Anomaly Detection: A Decadal
-    Bibliometric Analysis (2014–2024)
-  title-short: Artificial Intelligence in Maritime Anomaly Detection
-  type: article-journal
-  URL: https://link.springer.com/10.1007/s40032-025-01169-w
-  volume: '106'
-
-- id: thakurArtificialIntelligenceMaritime2025a
   abstract: >-
     This investigation builds upon scholarly research on AI-integrated anomaly
     detection in maritime safety operations from 2014 to 2024. The bibliometric
@@ -1464,6 +1050,38 @@ references:
     - year: 2025
       month: 9
       day: 22
+  author:
+    - family: Thakur
+      given: Aman Singh
+    - family: Alex
+      given: T. Lawrence
+    - family: Nighojkar
+      given: Amrita
+  citation-key: thakurArtificialIntelligenceMaritime2025
+  container-title: 'Journal of The Institution of Engineers (India): Series C'
+  container-title-short: J. Inst. Eng. India Ser. C
+  DOI: 10.1007/s40032-025-01169-w
+  ISSN: 2250-0545, 2250-0553
+  issue: '2'
+  issued:
+    - year: 2025
+      month: 4
+  language: en
+  page: 665-689
+  source: DOI.org (Crossref)
+  title: >-
+    Artificial Intelligence in Maritime Anomaly Detection: A Decadal
+    Bibliometric Analysis (2014–2024)
+  title-short: Artificial Intelligence in Maritime Anomaly Detection
+  type: article-journal
+  URL: https://link.springer.com/10.1007/s40032-025-01169-w
+  volume: '106'
+
+- id: thakurArtificialIntelligenceMaritime2025a
+  accessed:
+    - year: 2025
+      month: 10
+      day: 1
   author:
     - family: Thakur
       given: Aman Singh
@@ -1529,45 +1147,6 @@ references:
   type: article-journal
 
 - id: viskyStatisticalAnalysisBasedFeature2025
-  accessed:
-    - year: 2025
-      month: 10
-      day: 1
-  author:
-    - family: Visky
-      given: Gabor
-    - family: Vaarandi
-      given: Risto
-    - family: Katsikas
-      given: Sokratis
-    - family: Maennel
-      given: Olaf
-  citation-key: viskyStatisticalAnalysisBasedFeature2025
-  container-title: >-
-    2025 IEEE 23rd World Symposium on Applied Machine Intelligence and
-    Informatics (SAMI)
-  DOI: 10.1109/SAMI63904.2025.10883201
-  event-place: Stará Lesná, Slovakia
-  event-title: >-
-    2025 IEEE 23rd World Symposium on Applied Machine Intelligence and
-    Informatics (SAMI)
-  ISBN: 979-8-3503-7936-5
-  issued:
-    - year: 2025
-      month: 1
-      day: 23
-  license: https://doi.org/10.15223/policy-029
-  page: 000159-000164
-  publisher: IEEE
-  publisher-place: Stará Lesná, Slovakia
-  source: DOI.org (Crossref)
-  title: >-
-    Statistical Analysis-Based Feature Selection for Anomaly Detection in AIS
-    Dataset
-  type: paper-conference
-  URL: https://ieeexplore.ieee.org/document/10883201/
-
-- id: viskyStatisticalAnalysisBasedFeature2025a
   abstract: >-
     A global trend in the progressive digitalisation of the world is affecting
     different industries, including the maritime transport sector. Electronic
@@ -1599,7 +1178,7 @@ references:
       given: Sokratis
     - family: Maennel
       given: Olaf
-  citation-key: viskyStatisticalAnalysisBasedFeature2025a
+  citation-key: viskyStatisticalAnalysisBasedFeature2025
   container-title: >-
     2025 IEEE 23rd World Symposium on Applied Machine Intelligence and
     Informatics (SAMI)
@@ -1625,103 +1204,42 @@ references:
   type: paper-conference
   URL: https://ieeexplore.ieee.org/document/10883201/
 
-- id: wolsingAnomalyDetectionMaritime2022
-  abstract: >-
-    The automatic identification system (AIS) was introduced in the maritime
-    domain to increase the safety of sea traffic. AIS messages are transmitted
-    as broadcasts to nearby ships and contain, among others, information about
-    the identification, position, speed, and course of the sending vessels. AIS
-    can thus serve as a tool to avoid collisions and increase onboard
-    situational awareness. In recent years, AIS has been utilized in more and
-    more applications since it enables worldwide surveillance of virtually any
-    larger vessel and has the potential to greatly support vessel traffic
-    services and collision risk assessment. Anomalies in AIS tracks can indicate
-    events that are relevant in terms of safety and also security. With a
-    plethora of accessible AIS data nowadays, there is a growing need for the
-    automatic detection of anomalous AIS data. In this paper, we survey 44
-    research articles on anomaly detection of maritime AIS tracks. We identify
-    the tackled AIS anomaly types, assess their potential use cases, and closely
-    examine the landscape of recent AIS anomaly research as well as their
-    limitations.
+- id: viskyStatisticalAnalysisBasedFeature2025a
   accessed:
     - year: 2025
-      month: 9
-      day: 21
-  author:
-    - family: Wolsing
-      given: Konrad
-    - family: Roepert
-      given: Linus
-    - family: Bauer
-      given: Jan
-    - family: Wehrle
-      given: Klaus
-  citation-key: wolsingAnomalyDetectionMaritime2022
-  container-title: Journal of Marine Science and Engineering
-  DOI: 10.3390/jmse10010112
-  ISSN: 2077-1312
-  issue: '1'
-  issued:
-    - year: 2022
-      month: 1
-  language: en
-  license: http://creativecommons.org/licenses/by/3.0/
-  page: '112'
-  publisher: Multidisciplinary Digital Publishing Institute
-  source: www.mdpi.com
-  title: 'Anomaly Detection in Maritime AIS Tracks: A Review of Recent Approaches'
-  title-short: Anomaly Detection in Maritime AIS Tracks
-  type: article-journal
-  URL: https://www.mdpi.com/2077-1312/10/1/112
-  volume: '10'
-
-- id: yangHarnessingPowerMachine2024
-  abstract: >-
-    Automatic Identification System (AIS) data holds immense research value in
-    the maritime industry because of its massive scale and the ability to reveal
-    the spatial–temporal variation patterns of vessels. Unfortunately, its
-    potential has long been limited by traditional methodologies. The emergence
-    of machine learning (ML) offers a promising avenue to unlock the full
-    potential of AIS data. In recent years, there has been a growing interest
-    among researchers in leveraging ML to analyze and utilize AIS data. This
-    paper, therefore, provides a comprehensive review of ML applications using
-    AIS data and offers valuable suggestions for future research, such as
-    constructing benchmark AIS datasets, exploring more deep learning (DL) and
-    deep reinforcement learning (DRL) applications on AIS-based studies, and
-    developing large-scale ML models trained by AIS data.
-  accessed:
-    - year: 2025
-      month: 9
-      day: 17
-  author:
-    - family: Yang
-      given: Ying
-    - family: Liu
-      given: Yang
-    - family: Li
-      given: Guorong
-    - family: Zhang
-      given: Zekun
-    - family: Liu
-      given: Yanbin
-  citation-key: yangHarnessingPowerMachine2024
-  container-title: 'Transportation Research Part E: Logistics and Transportation Review'
-  container-title-short: 'Transportation Research Part E: Logistics and Transportation Review'
-  DOI: 10.1016/j.tre.2024.103426
-  ISSN: 1366-5545
-  issued:
-    - year: 2024
-      month: 3
+      month: 10
       day: 1
-  page: '103426'
-  source: ScienceDirect
+  author:
+    - family: Visky
+      given: Gabor
+    - family: Vaarandi
+      given: Risto
+    - family: Katsikas
+      given: Sokratis
+    - family: Maennel
+      given: Olaf
+  citation-key: viskyStatisticalAnalysisBasedFeature2025a
+  container-title: >-
+    2025 IEEE 23rd World Symposium on Applied Machine Intelligence and
+    Informatics (SAMI)
+  DOI: 10.1109/SAMI63904.2025.10883201
+  event-place: Stará Lesná, Slovakia
+  event-title: >-
+    2025 IEEE 23rd World Symposium on Applied Machine Intelligence and
+    Informatics (SAMI)
+  ISBN: 979-8-3503-7936-5
+  issued:
+    - year: 2025
+      month: 1
+      day: 23
+  license: https://doi.org/10.15223/policy-029
+  page: 000159-000164
+  publisher: IEEE
+  publisher-place: Stará Lesná, Slovakia
+  source: DOI.org (Crossref)
   title: >-
-    Harnessing the power of Machine learning for AIS Data-Driven maritime
-    Research: A comprehensive review
-  title-short: >-
-    Harnessing the power of Machine learning for AIS Data-Driven maritime
-    Research
-  type: article-journal
-  URL: https://www.sciencedirect.com/science/article/pii/S1366554524000164
-  volume: '183'
+    Statistical Analysis-Based Feature Selection for Anomaly Detection in AIS
+    Dataset
+  type: paper-conference
+  URL: https://ieeexplore.ieee.org/document/10883201/
 ...
