@@ -416,80 +416,6 @@ references:
   URL: >-
     https://fr.wikipedia.org/w/index.php?title=Flotte_fant%C3%B4me_russe&oldid=229517722
 
-- id: HarnessingPowerMachine2024
-  abstract: >-
-    Automatic Identification System (AIS) data holds immense research value in
-    the maritime industry because of its massive scale and the ability to revea…
-  accessed:
-    - year: 2025
-      month: 9
-      day: 22
-  citation-key: HarnessingPowerMachine2024
-  container-title: 'Transportation Research Part E: Logistics and Transportation Review'
-  DOI: 10.1016/j.tre.2024.103426
-  ISSN: 1366-5545
-  issued:
-    - year: 2024
-      month: 3
-      day: 1
-  language: en-US
-  page: '103426'
-  publisher: Pergamon
-  source: www.sciencedirect.com
-  title: >-
-    Harnessing the power of Machine learning for AIS Data-Driven maritime
-    Research: A comprehensive review
-  title-short: >-
-    Harnessing the power of Machine learning for AIS Data-Driven maritime
-    Research
-  type: article-journal
-  URL: https://www.sciencedirect.com/science/article/pii/S1366554524000164
-  volume: '183'
-
-- id: hossainEnhancingMarineRadar2024
-  accessed:
-    - year: 2025
-      month: 10
-      day: 1
-  author:
-    - family: Hossain
-      given: Md. Alamgir
-    - family: Hossain
-      given: Md. Sharafat
-    - family: Hossain
-      given: Md Delwar
-    - family: Islam
-      given: Md. Saiful
-    - family: Mustafa
-      given: Hossen Asiful
-    - family: Rahman
-      given: Md. Mahbubur
-  citation-key: hossainEnhancingMarineRadar2024
-  container-title: >-
-    2024 2nd International Conference on Information and Communication
-    Technology (ICICT)
-  DOI: 10.1109/ICICT64387.2024.10839737
-  event-place: Dhaka, Bangladesh
-  event-title: >-
-    2024 2nd International Conference on Information and Communication
-    Technology (ICICT)
-  ISBN: 979-8-3315-0822-7
-  issued:
-    - year: 2024
-      month: 10
-      day: 21
-  license: https://doi.org/10.15223/policy-029
-  page: 279-283
-  publisher: IEEE
-  publisher-place: Dhaka, Bangladesh
-  source: DOI.org (Crossref)
-  title: >-
-    Enhancing Marine Radar Security Through Semi-Supervised Learning: A
-    Self-Training Approach
-  title-short: Enhancing Marine Radar Security Through Semi-Supervised Learning
-  type: paper-conference
-  URL: https://ieeexplore.ieee.org/document/10839737/
-
 - id: hossainEnhancingMarineRadar2024a
   abstract: >-
     Marine radar systems are essential for maritime safety but are increasingly
@@ -823,40 +749,6 @@ references:
   volume: '55'
 
 - id: klorDudeWheresThat2024
-  accessed:
-    - year: 2025
-      month: 10
-      day: 1
-  author:
-    - family: Klör
-      given: Felix
-    - family: Bauer
-      given: Jan
-    - family: Paulus
-      given: Sachar
-    - family: Rademacher
-      given: Michael
-  citation-key: klorDudeWheresThat2024
-  container-title: 2024 IEEE 49th Conference on Local Computer Networks (LCN)
-  DOI: 10.1109/LCN60385.2024.10639674
-  event-place: Normandy, France
-  event-title: 2024 IEEE 49th Conference on Local Computer Networks (LCN)
-  ISBN: 979-8-3503-8800-8
-  issued:
-    - year: 2024
-      month: 10
-      day: 8
-  license: https://doi.org/10.15223/policy-029
-  page: 1-7
-  publisher: IEEE
-  publisher-place: Normandy, France
-  source: DOI.org (Crossref)
-  title: Dude, Where’s That Ship? Stealthy Radio Attacks Against AIS Broadcasts
-  title-short: Dude, Where’s That Ship?
-  type: paper-conference
-  URL: https://ieeexplore.ieee.org/document/10639674/
-
-- id: klorDudeWheresThat2024a
   abstract: >-
     The Maritime Transportation System (MTS) is the foundation of global trade,
     a crucial pillar of our economy’s supply chains, but also critical to energy
@@ -890,7 +782,7 @@ references:
       given: Sachar
     - family: Rademacher
       given: Michael
-  citation-key: klorDudeWheresThat2024a
+  citation-key: klorDudeWheresThat2024
   container-title: 2024 IEEE 49th Conference on Local Computer Networks (LCN)
   DOI: 10.1109/LCN60385.2024.10639674
   event-place: Normandy, France
@@ -1305,39 +1197,6 @@ references:
   URL: >-
     https://www.planetoscope.com/Mobilite/1835-marchandises-transportees-par-voie-maritime-dans-le-monde.html
 
-- id: pohontuDetectionSpoofedAIS2025
-  accessed:
-    - year: 2025
-      month: 10
-      day: 1
-  author:
-    - family: Pohontu
-      given: Alexandru
-    - family: Vertan
-      given: Constantin
-    - family: Ciocioi
-      given: Iancu
-    - family: Popa
-      given: Ciprian
-  citation-key: pohontuDetectionSpoofedAIS2025
-  container-title: Revista Română de Informatică și Automatică
-  container-title-short: RRIA
-  DOI: 10.33436/v35i1y202503
-  ISSN: 12201758, 18414303
-  issue: '1'
-  issued:
-    - year: 2025
-      month: 3
-      day: 25
-  page: 37-50
-  source: DOI.org (Crossref)
-  title: 'Detection of spoofed AIS: Simulated tracks vs. real maritime data'
-  title-short: Detection of spoofed AIS
-  type: article-journal
-  URL: >-
-    https://rria.ici.ro/en/vol-35-no-1-2025/detection-of-spoofed-ais-simulated-tracks-vs-real-maritime-data/
-  volume: '35'
-
 - id: ribeiroAISbasedMaritimeAnomaly2023
   abstract: >-
     Maritime transportation plays an essential role in global trade. Due to the
@@ -1541,38 +1400,6 @@ references:
   URL: https://constanttech.com/implementing-a-fleet-operations-center/
 
 - id: thakurArtificialIntelligenceMaritime2025
-  accessed:
-    - year: 2025
-      month: 10
-      day: 1
-  author:
-    - family: Thakur
-      given: Aman Singh
-    - family: Alex
-      given: T. Lawrence
-    - family: Nighojkar
-      given: Amrita
-  citation-key: thakurArtificialIntelligenceMaritime2025
-  container-title: 'Journal of The Institution of Engineers (India): Series C'
-  container-title-short: J. Inst. Eng. India Ser. C
-  DOI: 10.1007/s40032-025-01169-w
-  ISSN: 2250-0545, 2250-0553
-  issue: '2'
-  issued:
-    - year: 2025
-      month: 4
-  language: en
-  page: 665-689
-  source: DOI.org (Crossref)
-  title: >-
-    Artificial Intelligence in Maritime Anomaly Detection: A Decadal
-    Bibliometric Analysis (2014–2024)
-  title-short: Artificial Intelligence in Maritime Anomaly Detection
-  type: article-journal
-  URL: https://link.springer.com/10.1007/s40032-025-01169-w
-  volume: '106'
-
-- id: thakurArtificialIntelligenceMaritime2025a
   abstract: >-
     This investigation builds upon scholarly research on AI-integrated anomaly
     detection in maritime safety operations from 2014 to 2024. The bibliometric
@@ -1611,7 +1438,7 @@ references:
       given: T. Lawrence
     - family: Nighojkar
       given: Amrita
-  citation-key: thakurArtificialIntelligenceMaritime2025a
+  citation-key: thakurArtificialIntelligenceMaritime2025
   container-title: 'Journal of The Institution of Engineers (India): Series C'
   container-title-short: J. Inst. Eng. India Ser. C
   DOI: 10.1007/s40032-025-01169-w
@@ -1702,45 +1529,6 @@ references:
     Maritime cybersecurity: comparing practices between developing countries :
     the case study of Kenya and Spain
   type: article-journal
-
-- id: viskyStatisticalAnalysisBasedFeature2025
-  accessed:
-    - year: 2025
-      month: 10
-      day: 1
-  author:
-    - family: Visky
-      given: Gabor
-    - family: Vaarandi
-      given: Risto
-    - family: Katsikas
-      given: Sokratis
-    - family: Maennel
-      given: Olaf
-  citation-key: viskyStatisticalAnalysisBasedFeature2025
-  container-title: >-
-    2025 IEEE 23rd World Symposium on Applied Machine Intelligence and
-    Informatics (SAMI)
-  DOI: 10.1109/SAMI63904.2025.10883201
-  event-place: Stará Lesná, Slovakia
-  event-title: >-
-    2025 IEEE 23rd World Symposium on Applied Machine Intelligence and
-    Informatics (SAMI)
-  ISBN: 979-8-3503-7936-5
-  issued:
-    - year: 2025
-      month: 1
-      day: 23
-  license: https://doi.org/10.15223/policy-029
-  page: 000159-000164
-  publisher: IEEE
-  publisher-place: Stará Lesná, Slovakia
-  source: DOI.org (Crossref)
-  title: >-
-    Statistical Analysis-Based Feature Selection for Anomaly Detection in AIS
-    Dataset
-  type: paper-conference
-  URL: https://ieeexplore.ieee.org/document/10883201/
 
 - id: viskyStatisticalAnalysisBasedFeature2025a
   abstract: >-
