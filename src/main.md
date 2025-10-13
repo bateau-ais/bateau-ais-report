@@ -12,7 +12,7 @@ lang: fr
 note_type: reference
 writing_type: draft
 include-resources: src
-bibliography: refs.bib
+bibliography: refs.yaml
 csl: ieee.csl
 link-citations: true
 
