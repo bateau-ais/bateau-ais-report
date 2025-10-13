@@ -1165,6 +1165,19 @@ references:
   URL: >-
     https://www.researchgate.net/publication/258630626_Traffic_Route_Extraction_and_Anomaly_Detection_from_AIS_Data
 
+- id: PlanetoscopeStatistiquesMarchandises
+  accessed:
+    - year: 2025
+      month: 10
+      day: 13
+  citation-key: PlanetoscopeStatistiquesMarchandises
+  title: >-
+    Planetoscope - Statistiques : Marchandises transportées par voie maritime
+    dans le monde
+  type: webpage
+  URL: >-
+    https://www.planetoscope.com/Mobilite/1835-marchandises-transportees-par-voie-maritime-dans-le-monde.html
+
 - id: pohontuDetectionSpoofedAIS2025
   accessed:
     - year: 2025
