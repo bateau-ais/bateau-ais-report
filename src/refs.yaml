@@ -181,6 +181,58 @@ references:
   URL: https://www.mdpi.com/2077-1312/12/10/1844
   volume: '12'
 
+- id: cogneMerRougeNavires2025
+  abstract: >-
+    « Plusieurs interférences GPS et brouillages ont été observés par trois
+    navires en mer Rouge cette semaine », signale le MICA (Maritime
+    international cooperation and awareness) Center, basé à Brest. Ces incidents
+    survenus dans une zone entre Port Soudan et Djeddah (Arabie Saoudite) ont
+    été relevés entre 9 et le 13 mai. Ils affectent la plupart des instruments
+    de navigation (AIS, Ecdis, Inmarsat…).
+  accessed:
+    - year: 2025
+      month: 10
+      day: 13
+  author:
+    - family: Cogné
+      given: Gaël
+  citation-key: cogneMerRougeNavires2025
+  issued:
+    - year: 2025
+      month: 5
+      day: 16
+  language: fr
+  title: >-
+    En mer Rouge, des navires de commerce confrontés au brouillage GPS | Mer et
+    Marine
+  type: webpage
+  URL: >-
+    https://www.meretmarine.com/fr/marine-marchande/en-mer-rouge-des-navires-de-commerce-confrontes-au-brouillage-gps
+
+- id: CoreeNordBrouille2024
+  abstract: >-
+    Le régime nord-coréen réalise des brouillages GPS faisant subir à des
+    navires et des dizaines d'avions civils "quelques perturbations
+    opérationnelles", a accusé samedi l'armée sud-coréenne. Le brouillage…
+  accessed:
+    - year: 2025
+      month: 10
+      day: 13
+  citation-key: CoreeNordBrouille2024
+  container-title: France 24
+  issued:
+    - year: 2024
+      month: 11
+      day: 9
+  language: fr
+  section: asie-pacifique
+  title: >-
+    La Corée du Nord brouille les signaux GPS, affectant des dizaines d'avions
+    et navires en Corée du Sud
+  type: webpage
+  URL: >-
+    https://www.france24.com/fr/info-en-continu/20241109-la-cor%C3%A9e-du-nord-brouille-les-signaux-gps-affectant-avions-et-navires-en-cor%C3%A9e-du-sud
+
 - id: durlikEnhancingSafetyAutonomous2025
   abstract: >-
     The maritime transportation sector is undergoing a profound shift with the
@@ -331,6 +383,38 @@ references:
   URL: >-
     https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2023.1151188/full
   volume: '5'
+
+- id: FlotteFantomeRusse2025
+  abstract: >-
+    La flotte fantôme russe désigne un groupe de navires pétroliers utilisés
+    clandestinement par la Russie pour exporter son pétrole malgré les sanctions
+    internationales durant l'invasion de l'Ukraine par la Russie.
+
+    Ces navires, généralement vieux et mal assurés, sont principalement
+    enregistrés sous des pavillons de complaisance.
+
+    Cette flotte a été développée pour contourner les restrictions imposées par
+    les sanctions économiques et permettre à la Russie de continuer à financer
+    sa guerre en Ukraine. Environ 70 % du pétrole russe exporté par voie
+    maritime l'est à bord de ces navires.
+  accessed:
+    - year: 2025
+      month: 10
+      day: 13
+  citation-key: FlotteFantomeRusse2025
+  container-title: Wikipédia
+  issued:
+    - year: 2025
+      month: 10
+      day: 5
+  language: fr
+  license: Creative Commons Attribution-ShareAlike License
+  note: 'Page Version ID: 229517722'
+  source: Wikipedia
+  title: Flotte fantôme russe
+  type: entry-encyclopedia
+  URL: >-
+    https://fr.wikipedia.org/w/index.php?title=Flotte_fant%C3%B4me_russe&oldid=229517722
 
 - id: HarnessingPowerMachine2024
   abstract: >-
@@ -492,6 +576,23 @@ references:
   type: article-journal
   URL: https://www.sciencedirect.com/science/article/pii/S2590005625000839
   volume: '27'
+
+- id: InfographieChiffresclesEchanges
+  abstract: >-
+    Impressionnants, voire vertigineux, ces chiffres témoignent de l’importance
+    du transport maritime dans le commerce international. En partenariat avec WE
+    DEMAIN
+  accessed:
+    - year: 2025
+      month: 10
+      day: 13
+  citation-key: InfographieChiffresclesEchanges
+  language: fr
+  title: 'Infographie : les chiffres-clés des échanges maritimes mondiaux'
+  title-short: Infographie
+  type: webpage
+  URL: >-
+    https://www.musee-marine.fr/le-magazine/dossiers-thematiques/a-quoi-ressembleront-les-echanges-maritimes-de-demain/infographie.html
 
 - id: ipharDataIntegrityAssessment2020
   accessed:
@@ -864,6 +965,32 @@ references:
     Precision Detection and Monitoring of Boats in Ocean
   type: paper-conference
   URL: https://ieeexplore.ieee.org/document/10671165/
+
+- id: lagneauBrouillageSignauxGPS2024
+  abstract: >-
+    Cela fait maintenant plusieurs mois que la géolocalisation par satellite est
+    perturbée dans la région de la Baltique. Évidemment, les regards se tournent
+  accessed:
+    - year: 2025
+      month: 10
+      day: 13
+  author:
+    - family: Lagneau
+      given: Laurent
+  citation-key: lagneauBrouillageSignauxGPS2024
+  container-title: Zone Militaire
+  issued:
+    - year: 2024
+      month: 4
+      day: 10
+  language: fr-FR
+  title: >-
+    Brouillage des signaux GPS par la Russie : La Suède voudrait une présence
+    accrue de l'Otan en mer Baltique
+  title-short: Brouillage des signaux GPS par la Russie
+  type: post-weblog
+  URL: >-
+    https://www.opex360.com/2024/04/10/brouillage-des-signaux-gps-par-la-russie-la-suede-voudrait-une-presence-accrue-de-lotan-en-mer-baltique/
 
 - id: liMaritimeCybersecurityComprehensive2024
   abstract: >-
@@ -1503,6 +1630,41 @@ references:
   type: article-journal
   URL: https://link.springer.com/10.1007/s40032-025-01169-w
   volume: '106'
+
+- id: TranspondeursAIS
+  accessed:
+    - year: 2025
+      month: 10
+      day: 13
+  citation-key: TranspondeursAIS
+  language: FR
+  title: Transpondeurs AIS
+  type: webpage
+  URL: https://www.imo.org/fr/ourwork/safety/pages/ais.aspx
+
+- id: TransportMaritimeCNUCED2025
+  abstract: >-
+    Le secteur achemine plus de 80 % des marchandises échangées dans le monde.
+    Les données nationales sur le commerce maritime sont essentielles pour
+    élaborer de meilleures politiques en matière de transport, de commerce et
+    d'investissement.
+  accessed:
+    - year: 2025
+      month: 10
+      day: 13
+  citation-key: TransportMaritimeCNUCED2025
+  issued:
+    - year: 2025
+      month: 4
+      day: 23
+  language: fr
+  title: >-
+    Transport maritime : la CNUCED publie de nouvelles statistiques | ONU
+    commerce et développement (CNUCED)
+  title-short: Transport maritime
+  type: webpage
+  URL: >-
+    https://unctad.org/fr/news/transport-maritime-la-cnuced-publie-de-nouvelles-statistiques
 
 - id: turyahumuraMaritimeCybersecurityComparing
   abstract: >-
