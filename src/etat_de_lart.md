@@ -17,7 +17,7 @@ Cette dernière nous assure une base solide afin d'obtenir les informations
 importantes dans la recherche académique.
 
 Pour obtenir la première sélection d'article, nous nous sommes aidés de
-l'outil /Publish or perish/ [?] afin de ressortir 1000 articles sur les années
+l'outil _Publish or perish_ [?] afin de ressortir 1000 articles sur les années
 2020 à 2025.
 Les mots-clef utilisés ont été "AIS", "maritime cybersecurity", et "machine learning".
 
@@ -25,7 +25,8 @@ Ensuite, nous avons supprimé les articles précédant 2025 et qui n'ont aucune
 citation.
 Cela représente 18 articles.
 À côté, nous avons fait une deuxième sélection de papier ayant zéro citation,
-mais qui ont été publiés en 2025.
+mais qui ont été publiés en 2025 afin de réintégrer les papiers les plus récents
+à notre recherche.
 12 articles correspondent à cette description.
 
 À partir de ces 30 articles, nous les avons lu et nous n'en avons retenu 17 qui
