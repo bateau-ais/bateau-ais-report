@@ -56,6 +56,31 @@ references:
   type: paper-conference
   URL: https://ieeexplore.ieee.org/document/11076618/
 
+- id: asymmetrixSPPurchase2025
+  abstract: >-
+    Consolidation in Marine Satellite AIS Data creates risks and opportunities
+    in this valuable Data & Analytics sub-sector.
+  accessed:
+    - year: 2025
+      month: 10
+      day: 13
+  author:
+    - family: Asymmetrix
+      given: ''
+  citation-key: asymmetrixSPPurchase2025
+  container-title: Asymmetrix
+  genre: Substack newsletter
+  issued:
+    - year: 2025
+      month: 4
+      day: 28
+  title: >-
+    🛰️ S&P purchase ORBCOMM's Marine Satellite AIS Data business as Kpler close
+    $241m acquisition of Spire Maritime - Asymmetrix Newsletter #64
+  type: post-weblog
+  URL: >-
+    https://asymmetrixintelligence.substack.com/p/s-and-p-purchase-orbcomms-marine
+
 - id: baukMaritimeCybersecurity2025
   accessed:
     - year: 2025
@@ -209,6 +234,20 @@ references:
   URL: >-
     https://www.meretmarine.com/fr/marine-marchande/en-mer-rouge-des-navires-de-commerce-confrontes-au-brouillage-gps
 
+- id: ConformiteAvecPratiques
+  accessed:
+    - year: 2025
+      month: 10
+      day: 15
+  citation-key: ConformiteAvecPratiques
+  title: >-
+    En conformité avec les pratiques de la flotte fantôme russe, le navire sous
+    sanctions “Shtandart” a dissimulé sa position pendant plus de six jours. –
+    No Shtandart In Europe
+  type: webpage
+  URL: >-
+    https://bernardgrua.net/2025/08/02/pratiques-flotte-fantome-russe-shtandart-sans-ais/
+
 - id: CoreeNordBrouille2024
   abstract: >-
     Le régime nord-coréen réalise des brouillages GPS faisant subir à des
@@ -232,6 +271,35 @@ references:
   type: webpage
   URL: >-
     https://www.france24.com/fr/info-en-continu/20241109-la-cor%C3%A9e-du-nord-brouille-les-signaux-gps-affectant-avions-et-navires-en-cor%C3%A9e-du-sud
+
+- id: durgpalAIPoweredSolutionLaunched2024
+  abstract: >-
+    Windward, a maritime AI company, has introduced Early Detection, an
+    AI-driven solution that analyzes vast amounts of maritime data to identify
+    anomalies impacting operations. By detecting irregular activities,
+    organizations can uncover trends without user input. The system integrates
+    Windward's data with open-source streams to provide real-time insights and
+    context for global events.
+  accessed:
+    - year: 2025
+      month: 10
+      day: 13
+  author:
+    - family: durgpal
+      given: ''
+  citation-key: durgpalAIPoweredSolutionLaunched2024
+  issued:
+    - year: 2024
+      month: 10
+      day: 30
+  language: en-US
+  section: Daily News
+  title: >-
+    AI-Powered Solution Launched for Anomaly Detection in Maritime Operations -
+    CrewMirror.com
+  type: post-weblog
+  URL: >-
+    https://crewmirror.com/news/ai-powered-solution-launched-for-anomaly-detection-in-maritime-operations/
 
 - id: durlikEnhancingSafetyAutonomous2025
   abstract: >-
@@ -416,7 +484,17 @@ references:
   URL: >-
     https://fr.wikipedia.org/w/index.php?title=Flotte_fant%C3%B4me_russe&oldid=229517722
 
-- id: hossainEnhancingMarineRadar2024a
+- id: GlobalShipTrackinga
+  accessed:
+    - year: 2025
+      month: 10
+      day: 15
+  citation-key: GlobalShipTrackinga
+  title: 'Global ship tracking: Complete tracking from coast to deep ocean'
+  type: webpage
+  URL: https://www.kpler.com/product/maritime/kplerais
+
+- id: hossainEnhancingMarineRadar2024
   abstract: >-
     Marine radar systems are essential for maritime safety but are increasingly
     vulnerable to cyber-attacks. This research presents a method to improve
@@ -448,7 +526,7 @@ references:
       given: Hossen Asiful
     - family: Rahman
       given: Md. Mahbubur
-  citation-key: hossainEnhancingMarineRadar2024a
+  citation-key: hossainEnhancingMarineRadar2024
   container-title: >-
     2024 2nd International Conference on Information and Communication
     Technology (ICICT)
@@ -1255,6 +1333,52 @@ references:
     https://sic.ici.ro/current-issue/real-time-detection-of-spoofed-ais-enhancing-maritime-surveillance-against-induced-noise/
   volume: '34'
 
+- id: portail-ieFlotteFantomeComment2025
+  abstract: >-
+    Moscou parvient toujours à exporter son pétrole grâce à un réseau opaque de
+    navires. La « flotte fantôme », sans propriétaire identifiable ni assurance,
+    représente aujourd’hui 17 % des pétroliers mondiaux.
+  accessed:
+    - year: 2025
+      month: 10
+      day: 15
+  author:
+    - family: portail-ie
+      given: ''
+  citation-key: portail-ieFlotteFantomeComment2025
+  container-title: Portail de l'IE
+  issued:
+    - year: 2025
+      month: 4
+      day: 11
+  language: fr-FR
+  title: >-
+    « La flotte fantôme » : comment la Russie contourne les sanctions
+    internationales pour exporter son pétrole ?
+  title-short: « La flotte fantôme »
+  type: post-weblog
+  URL: https://www.portail-ie.fr/univers/2025/la-flotte-fantome/
+
+- id: PourquoiNavireSous
+  accessed:
+    - year: 2025
+      month: 10
+      day: 15
+  citation-key: PourquoiNavireSous
+  title: "Pourquoi le navire sous sanctions “Shtandart\_» fait-il partie de la flotte fantôme russe ? – No Shtandart In Europe"
+  type: webpage
+  URL: https://bernardgrua.net/2025/07/25/shtandart-flotte-fantome-russe/
+
+- id: PowerYourOrganization
+  accessed:
+    - year: 2025
+      month: 10
+      day: 13
+  citation-key: PowerYourOrganization
+  title: Power Your Organization with Windward Maritime AI™
+  type: webpage
+  URL: https://windward.ai/
+
 - id: ribeiroAISbasedMaritimeAnomaly2023
   abstract: >-
     Maritime transportation plays an essential role in global trade. Due to the
@@ -1304,6 +1428,511 @@ references:
   URL: https://www.sciencedirect.com/science/article/pii/S0957417423010631
   volume: '231'
 
+- id: ritchievinkPolarsPolarsPython2025
+  abstract: >-
+    🏆 Highlights
+
+
+
+
+    Add LazyFrame.{sink,collect}_batches (#23980)
+
+
+    Deterministic import order for Python Polars package variants (#24531)
+
+
+
+    🚀 Performance improvements
+
+
+
+
+    Optimize gather_every(n=1) to slice (#24704)
+
+
+    Lower null count to streaming engine (#24703)
+
+
+    Native streaming gather_every (#24700)
+
+
+    Pushdown filter with strptime if input is literal (#24694)
+
+
+    Avoid copying expanded paths (#24669)
+
+
+    Relax filter expr ordering (#24662)
+
+
+    Remove unnecessary groups call in aggregated (#24651)
+
+
+    Skip files in scan_iceberg with filter based on metadata statistics (#24547)
+
+
+    Push row_index predicate for all scan types (#24537)
+
+
+    Perform integer in-filtering for Parquet inequality predicates (#24525)
+
+
+    Stop caching Parquet metadata after 8 files (#24513)
+
+
+    Native streaming .mode() expression (#24459)
+
+
+
+    ✨ Enhancements
+
+
+
+
+    Implement maintain_order for cross join (#24665)
+
+
+    Add support to output dt.total_{}() duration values as fractionals (#24598)
+
+
+    Avoid forcing a pyarrow dependency in read_excel when using the default
+    "calamine" engine (#24655)
+
+
+    Support scanning from file:/path URIs (#24603)
+
+
+    Log which file the schema was sourced from, and which file caused an extra
+    column error (#24621)
+
+
+    Add LazyFrame.{sink,collect}_batches (#23980)
+
+
+    Deterministic import order for Python Polars package variants (#24531)
+
+
+    Add support to display lazy query plan in marimo notebooks without needing
+    to install matplotlib or mermaid (#24540)
+
+
+    Add unstable hidden_file_prefix parameter to scan_parquet (#24507)
+
+
+    Use fixed-scale Decimals (#24542)
+
+
+    Add support for unsigned 128-bit integers (#24346)
+
+
+    Add unstable pl.Config.set_default_credential_provider (#24434)
+
+
+    Roundtrip BinaryOffset type through Parquet (#24344)
+
+
+    Add opt-in unstable functionality to load interval types as Struct (#24320)
+
+
+    Support reading parquet metadata from cloud storage (#24443)
+
+
+    Add user guide section on AWS role assumption (#24421)
+
+
+    Support unique / n_unique / arg_unique for array columns (#24406)
+
+
+
+    🐞 Bug fixes
+
+
+
+
+    Removing dots after noqa comments (#24722)
+
+
+    Parse Decimal with comma as decimal separator in CSV (#24685)
+
+
+    Make Categories pickleable (#24691)
+
+
+    Shift on array within list (#24678)
+
+
+    Fix handling of AggregatedScalar in ApplyExpr single input (#24634)
+
+
+    Support reading of mixed compressed/uncompressed IPC buffers (#24674)
+
+
+    Overflow in slice-slice optimization (#24658)
+
+
+    Package discovery for setuptools (#24656)
+
+
+    Add type assertion to prevent out-of-bounds in
+    GenericFirstLastGroupedReduction (#24590)
+
+
+    Remove inclusion of polars dir in runtime sdist/wheel (#24654)
+
+
+    Method dt.month_end was unnecessarily raising when the month-start timestamp
+    was ambiguous (#24647)
+
+
+    Widen from_dicts to Iterable\[Mapping\[str, Any]] (#24584)
+
+
+    Fix unsupported arrow type Dictionary error in scan_iceberg() (#24573)
+
+
+    Raise Exception instead of panic when unnest on non-struct column (#24471)
+
+
+    Include missing feature dependency from polars-stream/diff to
+    polars-plan/abs (#24613)
+
+
+    Newline escaping in streaming show_graph (#24612)
+
+
+    Do not allow inferring (-1) the dimension on any Expr.reshape dimension
+    except the first (#24591)
+
+
+    Sink batches early stop on in-memory engine (#24585)
+
+
+    More precisely model expression ordering requirements (#24437)
+
+
+    Panic in zero-weight rolling mean/var (#24596)
+
+
+    Decimal <-> literal arithmetic supertype rules (#24594)
+
+
+    Match various aggregation return types in the streaming engine with the
+    in-memory engine (#24501)
+
+
+    Validate list type for list expressions in planner (#24589)
+
+
+    Fix scan_iceberg() storage options not taking effect (#24574)
+
+
+    Have log() prioritize the leftmost dtype for its output dtype (#24581)
+
+
+    CSV pl.len() was incorrect (#24587)
+
+
+    Add support for float inputs for duration types (#24529)
+
+
+    Roundtrip empty string through hive partitioning (#24546)
+
+
+    Fix potential OOB writes in unaligned IPC read (#24550)
+
+
+    Fix regression error when scanning AWS presigned URL (#24530)
+
+
+    Make PlPath::join for cloud paths replace on absolute paths (#24514)
+
+
+    Correct dtype for cum_agg in streaming engine (#24510)
+
+
+    Restore support for np.datetime64() in pl.lit() (#24527)
+
+
+    Ignore Iceberg list element ID if missing (#24479)
+
+
+    Fix panic on streaming full join with coalesce (#23409)
+
+
+    Fix AggState on all_literal in BinaryExpr (#24461)
+
+
+    Show IR sort options in explain (#24465)
+
+
+    Benchmark CI import (#24463)
+
+
+    Fix schema on ApplyExpr with single row literal in agg context (#24422)
+
+
+    Fix planner schema for dividing pl.Float32 by int (#24432)
+
+
+    Fix panic scanning from AWS legacy global endpoint URL (#24450)
+
+
+    Fix iterable_to_pydf(..., infer_schema_length=None) to scan all data
+    (#23405)
+
+
+    Do not propagate struct of nulls with null (#24420)
+
+
+    Be stricter with invalid NDJSON input when ignore_errors=False (#24404)
+
+
+    Implement approx_n_unique for temporal dtypes and Null (#24417)
+
+
+
+    📖 Documentation
+
+
+
+
+    Add default parquet compression levels (#24686)
+
+
+    Fix syntax error in data-types-and-structures.md (#24606)
+
+
+    Rename avg_birthday -> avg_age in examples aggregation (#23726)
+
+
+    Update Polars Cloud user guide (#24366)
+
+
+    Fix typo in set_expr_depth_warning docstring (#24427)
+
+
+
+    📦 Build system
+
+
+
+
+    Python pre-release 1.34.0b5 (#24699)
+
+
+    Use cargo-run to call dsl-schema script (#24607)
+
+
+
+    🛠️ Other improvements
+
+
+
+
+    Removing dots after noqa comments (#24722)
+
+
+    Make test_multiple_sorting_columns test runnable (#24719)
+
+
+    Remove {Upper,Lower}Bound expressions in IR (#24701)
+
+
+    Fix Makefile uv pip option syntax (#24711)
+
+
+    Add egg-info to gitignore (#24712)
+
+
+    Restructure python project directories again (#24676)
+
+
+    Use IR for polars-expr output field resolution (#24661)
+
+
+    Remove dist/ from release python workflow (#24639)
+
+
+    Escape sed ampersand in release script (#24631)
+
+
+    Remove PyOdide from release for now (#24630)
+
+
+    Fix sed in-place in release script (#24628)
+
+
+    Release script pyodide wheel (#24627)
+
+
+    Release script pyodide wheel (#24626)
+
+
+    Update release script for runtimes (#24610)
+
+
+    Remove unused UnknownKind::Ufunc (#24614)
+
+
+    Use cargo-run to call dsl-schema script (#24607)
+
+
+    Cleanup and prepare to_field for element and struct field context (#24592)
+
+
+    Resolve nightly clippy hints (#24593)
+
+
+    Rename pl.dependencies to pl._dependencies (#24595)
+
+
+    More release scripting (#24582)
+
+
+    Again a minor fix for the setup script (#24580)
+
+
+    Minor fix in release script (#24579)
+
+
+    Correct release python beta version check (#24578)
+
+
+    Python dependency failure (#24576)
+
+
+    Always install yq (#24570)
+
+
+    Deterministic import order for Python Polars package variants (#24531)
+
+
+    Check Arrow FFI pointers with an assert (#24564)
+
+
+    Add a couple of missing type definitions in python (#24561)
+
+
+    Fix quickstart example in Polars Cloud user guide (#24554)
+
+
+    Add implementations for loading min/max statistics for Iceberg (#24496)
+
+
+    Update versions (#24508)
+
+
+    Add additional unit tests for pl.concat (#24487)
+
+
+    Refactor parametric tests for as_struct on aggstates (#24493)
+
+
+    Use PlanCallback in name.map_\* (#24484)
+
+
+    Pin xlsvwriter to 3.2.5 or before (#24485)
+
+
+    Add dataclass to hold resolved iceberg scan data (#24418)
+
+
+    Fix iceberg test failure in CI (#24456)
+
+
+    Move CompressionUtils to polars-utils (#24430)
+
+
+    Update github template to dispatch to cloud client (#24416)
+
+
+
+    Thank you to all our contributors for making this release possible!
+
+    @DeflateAwning, @Gusabary, @JakubValtar, @Kevin-Patyk, @MarcoGorelli,
+    @Matt711, @alexander-beedie, @alonsosilvaallende, @andreseje, @borchero,
+    @c-peters, @camriddell, @coastalwhite, @dangotbanned, @deanm0000,
+    @dongchao-1, @dsprenkels, @eitsupi, @itamarst, @jan-krueger,
+    @joshuamarkovic, @juansolm, @kdn36, @moizescbf, @nameexhaustion, @orlp,
+    @r-brink, @ritchie46 and @stijnherfst
+  accessed:
+    - year: 2025
+      month: 10
+      day: 15
+  author:
+    - family: Ritchie Vink
+      given: ''
+    - family: Stijn de Gooijer
+      given: ''
+    - family: Alexander Beedie
+      given: ''
+    - family: Gijs Burghoorn
+      given: ''
+    - family: nameexhaustion
+      given: ''
+    - family: Orson Peters
+      given: ''
+    - family: Marco Edward Gorelli
+      given: ''
+    - family: reswqa
+      given: ''
+    - family: Jeroen van Zundert
+      given: ''
+    - family: Marshall
+      given: ''
+    - family: Gert Hulselmans
+      given: ''
+    - family: Cory Grinstead
+      given: ''
+    - family: Luke Manley
+      given: ''
+    - family: chielP
+      given: ''
+    - family: Koen Denecker
+      given: ''
+    - family: Itamar Turner-Trauring
+      given: ''
+    - family: Kuba Valtar
+      given: ''
+    - family: Lawrence Mitchell
+      given: ''
+    - family: eitsupi
+      given: ''
+    - family: Henry Harbeck
+      given: ''
+    - family: Karl Genockey
+      given: ''
+    - family: Matteo Santamaria
+      given: ''
+    - family: Robin
+      given: ''
+    - family: deanm0000
+      given: ''
+    - family: Oliver Borchert
+      given: ''
+    - family: Amber Sprenkels
+      given: ''
+    - family: Daniël Heres
+      given: ''
+    - family: Josh Magarick
+      given: ''
+    - family: Ion Koutsouris
+      given: ''
+  citation-key: ritchievinkPolarsPolarsPython2025
+  DOI: 10.5281/ZENODO.7697217
+  issued:
+    - year: 2025
+      month: 10
+      day: 2
+  license: Creative Commons Attribution 4.0 International
+  publisher: Zenodo
+  source: DOI.org (Datacite)
+  title: 'pola-rs/polars: Python Polars 1.34.0'
+  title-short: pola-rs/polars
+  type: software
+  URL: https://zenodo.org/doi/10.5281/zenodo.7697217
+  version: py-1.34.0
+
 - id: rivkinMaritimeCybersecurityNavigational2023
   abstract: >-
     Abstract This article is a review of publications on maritime cybersecurity
@@ -1340,6 +1969,46 @@ references:
   type: article-journal
   URL: https://springerrevues.ezproxy.univ-ubs.fr/article/10.1134/S207510872470010X
   volume: '14'
+
+- id: serrySystemeDidentificationAutomatique2015
+  abstract: >-
+    Le système automatique d’identification (AIS) des navires est un outil
+    destiné à accroitre la sécurité de la navigation et l’efficacité de la
+    gestion du trafic maritime. Son utilisation renforce à la fois la sécurité
+    et la sureté maritime. Ses apports sont indéniables malgré quelques carences
+    et limites techniques. Cet article présente les apports et les utilisations
+    de la technologie AIS à l’origine d’une importante manne d’informations
+    riches pour l’étude et la compréhension des circulations maritimes,
+    spécialement pour la communauté scientifique ou les acteurs portuaires. Cet
+    état de l’art est réalisé dans le cadre de la mise en œuvre d’une plateforme
+    permettant de reconstituer les itinéraires des navires en utilisant les
+    signaux AIS.
+  accessed:
+    - year: 2025
+      month: 10
+      day: 13
+  author:
+    - family: Serry
+      given: Arnaud
+    - family: Lévêque
+      given: Laurent
+  citation-key: serrySystemeDidentificationAutomatique2015
+  container-title: Netcom. Réseaux, communication et territoires
+  DOI: 10.4000/netcom.1943
+  ISSN: 0987-6014
+  issue: 29-1/2
+  issued:
+    - year: 2015
+      month: 12
+      day: 14
+  language: fr
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/
+  page: 177-202
+  publisher: Netcom Association
+  source: journals.openedition.org
+  title: Le système d’identification automatique (AIS)
+  type: article-journal
+  URL: https://journals.openedition.org/netcom/1943
 
 - id: ServicesTraficMaritime
   accessed:
@@ -1551,6 +2220,26 @@ references:
   URL: >-
     https://unctad.org/fr/news/transport-maritime-la-cnuced-publie-de-nouvelles-statistiques
 
+- id: turgeonAISDataProviders2024
+  abstract: "\"After analyzing dozens of maritime data providers, we curated the following list to help those looking for the very best in AIS data and vessel tracking.\"Automatic Identification System (AIS) are imperative to safety, efficiency, and compliance within the maritime industry. AIS data delivers valuable information from ships operating at sea so organizations and authorities can ensure secure operations and avoid potential issues from navigational errors or inefficiencies.\_While AIS systems are va"
+  accessed:
+    - year: 2025
+      month: 10
+      day: 13
+  author:
+    - family: Turgeon
+      given: Travis
+  citation-key: turgeonAISDataProviders2024
+  container-title: Dark Shipping
+  issued:
+    - year: 2024
+      month: 7
+      day: 14
+  language: en
+  title: AIS Data Providers for Maritime Vessel Tracking
+  type: webpage
+  URL: https://www.darkshipping.com/post/ais-data-providers
+
 - id: turyahumuraMaritimeCybersecurityComparing
   abstract: >-
     The rapid technological change in the maritime industry requires a
@@ -1588,7 +2277,24 @@ references:
     the case study of Kenya and Spain
   type: article-journal
 
-- id: viskyStatisticalAnalysisBasedFeature2025a
+- id: VesselTrackingReveals
+  abstract: >-
+    Accurate and efficient conversion of AIS data into market information could
+    be the biggest leap in shipping market efficiency and transparency in
+    decades
+  accessed:
+    - year: 2025
+      month: 10
+      day: 15
+  citation-key: VesselTrackingReveals
+  container-title: Riviera
+  language: En
+  title: Vessel tracking reveals valuable commercial data
+  type: webpage
+  URL: >-
+    https://www.rivieramm.com/opinion/opinion/vessel-tracking-reveals-valuable-commercial-data-24098
+
+- id: viskyStatisticalAnalysisBasedFeature2025
   abstract: >-
     A global trend in the progressive digitalisation of the world is affecting
     different industries, including the maritime transport sector. Electronic
@@ -1620,7 +2326,7 @@ references:
       given: Sokratis
     - family: Maennel
       given: Olaf
-  citation-key: viskyStatisticalAnalysisBasedFeature2025a
+  citation-key: viskyStatisticalAnalysisBasedFeature2025
   container-title: >-
     2025 IEEE 23rd World Symposium on Applied Machine Intelligence and
     Informatics (SAMI)
