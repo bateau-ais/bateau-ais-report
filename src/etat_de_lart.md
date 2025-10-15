@@ -56,12 +56,23 @@ Enfin, il est important de mentionner la dimension plus large de la sécurité m
 Ces travaux soulignent la nécessité d’une défense coordonnée intégrant cybersécurité et sécurité opérationnelle.
 
 En résumé, les recherches récentes convergent vers des solutions hybrides mêlant intelligence artificielle avancée, analyse statistique rigoureuse et validation par données simulées et réelles.
-Ces approches permettent d’améliorer la détection d’anomalies AIS, facteur clé pour renforcer la cybersécurité maritime et la sûreté de la navigation [W4408835171][W4410004931][W4408806682][W4407737541][W4403322254][W4409155591][W4402353371].
+Ces approches permettent d’améliorer la détection d’anomalies AIS, facteur clé pour renforcer la cybersécurité maritime et la sûreté de la navigation [@pohontuRealtimeDetectionSpoofed2025; @millerArtificialIntelligenceMaritime2025; @nitishrajVesselTrajectoryRoute2025; @viskyStatisticalAnalysisBasedFeature2025a; @evans-leeIdentificationAnomalousGeospatial2024; @jiangCurrentStatusBibliometricsBased2025; @klorDudeWheresThat2024]
 
+## Notre positionnement par rapport à l'existant
 
-Nous avons aussi eu un article qui a tenté d'utiliser NUMSYNTH, un framework
-pour générer des "théories" à partir de paramètres numériques.
-Ils obtiennent ainsi des résultats comparables aux approches par deep
-learning actuelles, mais avec un coût de calcul bien plus limité.
-Cela pourrait ouvrir à des usages dans des systèmes avec des performances
-limités.
+Notre solution implémentera de manière générique des sources de données ainsi
+que des modèles de classification.
+Nous visons à proposer une solution extensible avec des spécifications claires
+et précise afin de favoriser la pérennité du projet.
+
+Cette proposition est intéressante par rapport à l'existant, car la plupart de
+des outils proposés sont payants et close-sourced.
+Nous proposons donc un modèle open-source en opposition afin de favoriser l'apparition
+de nouvelles applications dans la communauté et ainsi contribuer à développer
+cet aspect de la recherche que nous jugeons trop fermé.
+
+Nous implémenterons quelques modèles de classification, et d'attaque pour démontrer
+l'efficacité de notre solution à générer rapidement des résultats concrets et
+exploitables.
+Cela comprend la génération de benchmark, de dashboard interactif, et de rapports pdf.
+
