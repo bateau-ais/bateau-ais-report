@@ -20,10 +20,12 @@
             csquotes
             everypage
             filehook
+            floatrow
             footmisc
             footnotebackref
             framed
             fvextra
+            graphics
             letltxmacro
             ly1
             mdframed

@@ -1,32 +1,61 @@
 # Matrice RACI 
 
-| Rôle / Sous-tâches | P1 Data Engineer (Parseur) | P2 Data Scientist (Enrichisseur) | P3 ML Engineer (Modèle) | P4 Développeur (Dashboard) |
-|-------------------|:--------------------------:|:--------------------------------:|:-----------------------:|:--------------------------:|
-| **1. DATA ENGINEER - PARSEUR** |
-| 1.1 Extraction & ingestion données AIS brutes | **A/R** | I | I | I |
-| 1.2 Détection trames corrompues & anomalies techniques | **A/R** | C | I | I |
-| 1.3 Validation format & documentation schéma données | **A/R** | C | C | I |
-| **2. DATA SCIENTIST - ENRICHISSEUR & FALSIFICATEUR** |
-| 2.1 Enrichissement features (vitesse, cap, zones géo) | C | **A/R** | C | I |
-| 2.2 Modélisation scénarios d'attaques AIS (spoofing, silence radio) | I | **A/R** | C | I |
-| 2.3 Génération données adversariales & validation qualité | C | **A/R** | C | I |
-| **3. ML ENGINEER - ENTRAÎNEMENT MODÈLE** |
-| 3.1 Sélection & implémentation architecture modèle | I | C | **A/R** | I |
-| 3.2 Entraînement, tuning hyperparamètres & validation croisée | I | C | **A/R** | C |
-| 3.3 Tests de robustesse face aux attaques adversariales | I | C | **A/R** | C |
-| **4. DÉVELOPPEUR - DASHBOARD & BENCHMARKS** |
-| 4.1 Développement carte interactive temps réel | I | I | C | **A/R** |
-| 4.2 Implémentation logs, traçabilité & alertes anomalies | C | C | C | **A/R** |
-| 4.3 Configuration benchmarks & monitoring dérive modèle | I | C | C | **A/R** |
-| **5. PILOTAGE & COORDINATION (Responsabilités PM redistribuées)** |
-| 5.1 Coordination équipe & suivi avancement (daily, sprint) | C | **A/R** | C | C |
-| 5.2 Validation conformité cyberdéfense & cohérence technique | C | C | C | **A/R** |
-| 5.3 Gestion risques & communication stakeholders | C | **A/R** | C | C |
-| **6. ACTIVITÉS TRANSVERSALES** |
-| 6.1 Tests intégration bout-en-bout (pipeline complet) | C | C | C | **A/R** |
-| 6.2 Documentation technique globale du projet | C | C | C | **A/R** |
-| 6.3 Revue de code inter-équipes | R | R | R | R |
-| 6.4 Gestion versions, CI/CD & déploiement | C | C | C | **A/R** |
++----------------------------------------------------------------------+---------+--------------+---------+-------------+
+| Rôle / Sous-tâches                                                   | P1      | P2           | P3      | P4          |
+|                                                                      | Data    | Data         | ML      | Développeur |
+|                                                                      | Engineer| Scientist    | Engineer| (Dashboard) |
+|                                                                      |(Parseur)|(Enrichisseur)|(Modèle) |             |
++======================================================================+:=======:+:============:+:=======:+:===========:+
+| **1. DATA ENGINEER - PARSEUR**                                       |         |              |         |             |
++----------------------------------------------------------------------+---------+--------------+---------+-------------+
+| 1.1 Extraction & ingestion données AIS brutes                        | **A/R** | I            | I       | I           |
++----------------------------------------------------------------------+---------+--------------+---------+-------------+
+| 1.2 Détection trames corrompues & anomalies techniques               | **A/R** | C            | I       | I           |
++----------------------------------------------------------------------+---------+--------------+---------+-------------+
+| 1.3 Validation format & documentation schéma données                 | **A/R** | C            | C       | I           |
++----------------------------------------------------------------------+---------+--------------+---------+-------------+
+| **2. DATA SCIENTIST - ENRICHISSEUR & FALSIFICATEUR**                 |         |              |         |             |
++----------------------------------------------------------------------+---------+--------------+---------+-------------+
+| 2.1 Enrichissement features (vitesse, cap, zones géo)                | C       | **A/R**      | C       | I           |
++----------------------------------------------------------------------+---------+--------------+---------+-------------+
+| 2.2 Modélisation scénarios d\'attaques AIS (spoofing, silence radio) | I       | **A/R**      | C       | I           |
++----------------------------------------------------------------------+---------+--------------+---------+-------------+
+| 2.3 Génération données adversariales & validation qualité            | C       | **A/R**      | C       | I           |
++----------------------------------------------------------------------+---------+--------------+---------+-------------+
+| **3. ML ENGINEER - ENTRAÎNEMENT MODÈLE**                             |         |              |         |             |
++----------------------------------------------------------------------+---------+--------------+---------+-------------+
+| 3.1 Sélection & implémentation architecture modèle                   | I       | C            | **A/R** | I           |
++----------------------------------------------------------------------+---------+--------------+---------+-------------+
+| 3.2 Entraînement, tuning hyperparamètres & validation croisée        | I       | C            | **A/R** | C           |
++----------------------------------------------------------------------+---------+--------------+---------+-------------+
+| 3.3 Tests de robustesse face aux attaques adversariales              | I       | C            | **A/R** | C           |
++----------------------------------------------------------------------+---------+--------------+---------+-------------+
+| **4. DÉVELOPPEUR - DASHBOARD & BENCHMARKS**                          |         |              |         |             |
++----------------------------------------------------------------------+---------+--------------+---------+-------------+
+| 4.1 Développement carte interactive temps réel                       | I       | I            | C       | **A/R**     |
++----------------------------------------------------------------------+---------+--------------+---------+-------------+
+| 4.2 Implémentation logs, traçabilité & alertes anomalies             | C       | C            | C       | **A/R**     |
++----------------------------------------------------------------------+---------+--------------+---------+-------------+
+| 4.3 Configuration benchmarks & monitoring dérive modèle              | I       | C            | C       | **A/R**     |
++----------------------------------------------------------------------+---------+--------------+---------+-------------+
+| **5. PILOTAGE & COORDINATION (Responsabilités PM redistribuées)**    |         |              |         |             |
++----------------------------------------------------------------------+---------+--------------+---------+-------------+
+| 5.1 Coordination équipe & suivi avancement (daily, sprint)           | C       | **A/R**      | C       | C           |
++----------------------------------------------------------------------+---------+--------------+---------+-------------+
+| 5.2 Validation conformité cyberdéfense & cohérence technique         | C       | C            | C       | **A/R**     |
++----------------------------------------------------------------------+---------+--------------+---------+-------------+
+| 5.3 Gestion risques & communication stakeholders                     | C       | **A/R**      | C       | C           |
++----------------------------------------------------------------------+---------+--------------+---------+-------------+
+| **6. ACTIVITÉS TRANSVERSALES**                                       |         |              |         |             |
++----------------------------------------------------------------------+---------+--------------+---------+-------------+
+| 6.1 Tests intégration bout-en-bout (pipeline complet)                | C       | C            | C       | **A/R**     |
++----------------------------------------------------------------------+---------+--------------+---------+-------------+
+| 6.2 Documentation technique globale du projet                        | C       | C            | C       | **A/R**     |
++----------------------------------------------------------------------+---------+--------------+---------+-------------+
+| 6.3 Revue de code inter-équipes                                      | R       | R            | R       | R           |
++----------------------------------------------------------------------+---------+--------------+---------+-------------+
+| 6.4 Gestion versions, CI/CD & déploiement                            | C       | C            | C       | **A/R**     |
++----------------------------------------------------------------------+---------+--------------+---------+-------------+
 
 ---
 
