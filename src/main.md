@@ -49,6 +49,8 @@ abstract: |
 
 \onecolumn
 
+!include Matrice_RACI.md
+
 # Références
 
 ::: {#refs}
