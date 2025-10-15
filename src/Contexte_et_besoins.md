@@ -34,7 +34,7 @@ Cependant, ces solutions propriétaires restent soit exorbitantes financièremen
 Le marché de l'intelligence commerciale dérivée de l'AIS peut être divisé en trois types d'acteurs : 
 - les fournisseurs de données AIS, 
 - les nettoyeurs de données fournissant des produits de visualisation, 
-- les fournisseurs d'intelligence commerciale haut de gamme [@VesselTrackingRevealsa]. 
+- les fournisseurs d'intelligence commerciale haut de gamme [@VesselTrackingReveals]. 
 
 En 2025, le marché a connu une consolidation significative avec l'acquisition par Kpler de Spire Maritime pour 241 millions de dollars et par S&P Global de l'activité AIS d'ORBCOMM, démontrant la valeur stratégique de ces données [@asymmetrixSPPurchase2025].
 Cette lacune capacitaire est particulièrement critique pour les nations moyennes, les capitaineries de ports régionaux, et les organisations ne disposant pas de budgets militaires conséquents, créant ainsi un besoin opérationnel urgent pour une solution accessible, performante et souveraine. 
