@@ -1,10 +1,8 @@
 # Matrice RACI 
 
 +----------------------------------------------------------------------+---------+--------------+---------+-------------+
-| Rôle / Sous-tâches                                                   | P1      | P2           | P3      | P4          |
-|                                                                      | Data    | Data         | ML      | Développeur |
-|                                                                      | Engineer| Scientist    | Engineer| (Dashboard) |
-|                                                                      |(Parseur)|(Enrichisseur)|(Modèle) |             |
+| Rôle / Sous-tâches                                                   | Elouarn   | François   | Quentin  | Nils       |
+
 +======================================================================+:=======:+:============:+:=======:+:===========:+
 | **1. DATA ENGINEER - PARSEUR**                                       |         |              |         |             |
 +----------------------------------------------------------------------+---------+--------------+---------+-------------+
@@ -72,7 +70,7 @@
 
 | Personne | Composant Principal | Responsabilités PM Additionnelles | Focus Cyberdéfense | Livrables Clés |
 |----------|--------------------|---------------------------------|-------------------|----------------|
-| **P1** | Parseur | — | Intégrité données AIS | Dataset validé & documenté |
-| **P2** | Enrichisseur & Falsificateur | Validation conformité cyberdéfense | Simulation attaques AIS | Features + données adversariales |
-| **P3** | Entraînement Modèle | Gestion risques & communication | Robustesse modèle | Modèle optimisé & testé |
-| **P4** | Dashboard & Benchmarks | Coordination équipe & intégration | Sécurité applicative | Dashboard + monitoring + documentation |
+| **Elouarn** | Parseur | — | Intégrité données AIS | Dataset validé & documenté |
+| **François** | Enrichisseur & Falsificateur | Validation conformité cyberdéfense | Simulation attaques AIS | Features + données adversariales |
+| **Quentin** | Entraînement Modèle | Gestion risques & communication | Robustesse modèle | Modèle optimisé & testé |
+| **Nils** | Dashboard & Benchmarks | Coordination équipe & intégration | Sécurité applicative | Dashboard + monitoring + documentation |
