@@ -35,7 +35,12 @@ toc-own-page: true
 
 abstract-title: Introduction
 abstract: |
-  <!-- ABSTRACT HERE -->
+
+Le transport maritime, pilier du commerce mondial, repose largement sur le système AIS (Automatic Identification System) pour assurer la sécurité et la traçabilité des navires. Cependant, les falsifications de signal (spoofing), les coupures volontaires et les anomalies de trajectoire constituent aujourd’hui des menaces croissantes pour la sûreté maritime et la cybersécurité des infrastructures maritimes.
+Ce projet propose le développement d’une solution intelligente, ouverte et modulaire de détection de comportements anormaux à partir de l’analyse des trames AIS. En s’appuyant sur les apports récents de la recherche, la solution combine des modèles d’intelligence artificielle (tels que les réseaux Bi-LSTM pour la détection temporelle et les algorithmes de clustering non supervisé pour les anomalies spatiales) avec une analyse statistique fine des caractéristiques géospatiales et dynamiques des navires.
+L’architecture proposée suit un pipeline complet : ingestion et nettoyage des flux AIS bruts, enrichissement des données, classification par IA et génération d’alertes contextualisées au sein d’un tableau de bord interactif. L’approche open source retenue garantit la transparence scientifique, la souveraineté technologique et une interopérabilité avec les systèmes de surveillance maritime existants (VTS, CROSS, FOC).
+En offrant une détection en temps réel, adaptable et explicable, ce projet vise à restaurer la confiance dans les données AIS, renforcer la résilience face aux manipulations numériques, et soutenir les acteurs civils et militaires dans leurs missions de sécurité et de gestion du trafic maritime.
+
 ---
 
 \twocolumn
