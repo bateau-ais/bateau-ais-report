@@ -9,7 +9,15 @@
  \date{$date$}
  
  %
-@@ -927,7 +927,7 @@
+@@ -855,7 +855,6 @@
+   \clearpairofpagestyles
+   \ihead*{$if(header-left)$$header-left$$else$$title$$endif$}
+   \chead*{$if(header-center)$$header-center$$else$$endif$}
+-  \ohead*{$if(header-right)$$header-right$$else$$date$$endif$}
+   \ifoot*{$if(footer-left)$$footer-left$$else$$for(author)$$author$$sep$, $endfor$$endif$}
+   \cfoot*{$if(footer-center)$$footer-center$$else$$endif$}
+   \ofoot*{$if(footer-right)$$footer-right$$else$\thepage$endif$}
+@@ -927,7 +926,7 @@
    {\Large \textsf{$subtitle$}}
    $endif$
    \vskip 2em
@@ -18,7 +26,7 @@
    \vfill
  }
  $else$
-@@ -940,7 +940,7 @@
+@@ -940,7 +939,7 @@
    {\Large \textsf{$subtitle$}}
    $endif$
    \vskip 2em
