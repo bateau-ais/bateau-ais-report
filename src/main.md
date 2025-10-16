@@ -1,5 +1,5 @@
 ---
-title:    Analyse automatisée des trames AIS pour la détection d’anomalies et de spoofing maritime
+title:    Analyse automatisée des trames AIS pour la détection d’anomalies maritime
 subtitle: Jalon 1
 author: 
 - Noilou Quentin
