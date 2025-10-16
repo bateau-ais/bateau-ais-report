@@ -6,6 +6,7 @@ author:
 - Le Bail Elouarn
 - Veneny François
 - Dufour Nils
+keywords: [ais, marine, autonomous vessels, machine learning]
 date: 13 octobre 2025
 lang: fr
 
@@ -43,18 +44,26 @@ abstract: |
 
 ---
 
+```{=latex}
+\setlength{\columnsep}{1.2cm}
 \twocolumn
+```
 
 !include Contexte_et_besoins.md
 
 !include Analyse_retentissement.md
 
-
 !include etat_de_lart.md
 
+```{=latex}
 \onecolumn
+```
 
 !include Matrice_RACI.md
+
+```{=latex}
+\newpage
+```
 
 # Références
 
