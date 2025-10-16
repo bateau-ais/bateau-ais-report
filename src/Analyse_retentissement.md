@@ -1,6 +1,13 @@
 # Analyse du retentissement
-Le public visé par ce projet de détection automatique
-de comportement anormaux sont les secteurs suivants :
+De par les ressources dont nous disposons pour le développement d'une
+solution permettant de détecter les comportements AIS anormaux, notre
+solution nécessitera peu de ressources techniques et sera très accessible
+financièrement. De par ces caractéristiques, une part plus importante des
+services de surveillance maritime pourront être équipé, et plus facilement,
+répondant ainsi aux principales attentes du marché.
+
+Le public visé par ce projet concerne les principaux services
+de surveillance maritime :
 - VTS (Vessel Traffic Service) : il s'agit de système à terre
 qui vont de la fourniture de simples messages d'informations aux navires,
 tels que la position des autres navires ou les avertissements
