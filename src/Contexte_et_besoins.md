@@ -2,7 +2,8 @@
 
 ## Contexte géopolitique
 
-Le transport maritime représente aujourd'hui l'épine dorsale du commerce mondial, acheminant environ 90% des échanges internationaux en volume et près de 11 milliards de tonnes de marchandises annuellement [@InfographieChiffresclesEchanges; @PlanetoscopeStatistiquesMarchandises].
+Le transport maritime représente aujourd'hui l'épine dorsale du commerce mondial, acheminant environ 90% des échanges internationaux en volume et près de 11 milliards de tonnes de marchandises annuellement [@InfographieChiffresclesEchanges; @PlanetoscopeStatistiquesMarchandises]. 
+
 Cette dépendance critique aux routes maritimes s'accompagne d'une vulnérabilité croissante face aux cybermenaces, particulièrement celles ciblant l'Automatic Identification System (AIS), système devenu indispensable à la navigation moderne [@TransportMaritimeCNUCED2025].
 
 L'AIS, obligatoire pour tous les navires de plus de 300 tonneaux en navigation internationale depuis les amendements SOLAS de 2004, transmet en continu des données essentielles : position GPS, vitesse, cap, identité du navire et destination [@TranspondeursAIS;@TranspondeursAIS]. Ce système permet de fournir automatiquement des informations sur le navire aux autres navires et aux autorités côtières, garantissant ainsi une navigation sécurisée [@ServicesTraficMaritime].

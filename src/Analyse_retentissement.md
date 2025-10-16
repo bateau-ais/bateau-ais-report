@@ -1,4 +1,5 @@
 # Analyse du retentissement
+
 De par les ressources dont nous disposons pour le développement d'une
 solution permettant de détecter les comportements AIS anormaux, notre
 solution nécessitera peu de ressources techniques et sera très accessible
@@ -8,6 +9,7 @@ répondant ainsi aux principales attentes du marché.
 
 Le public visé par ce projet concerne les principaux services
 de surveillance maritime :
+
 - VTS (Vessel Traffic Service) : il s'agit de système à terre
 qui vont de la fourniture de simples messages d'informations aux navires,
 tels que la position des autres navires ou les avertissements
