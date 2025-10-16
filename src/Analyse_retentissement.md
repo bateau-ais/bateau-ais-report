@@ -36,5 +36,6 @@ de son incapacité à communiquer sa position de manière fiable).
 Une trajectoire anormal pouvant être la résultante d'une avarie
 (par exemple, lorsqu'un navire s'arrète et part à la dérive),
 **notre solution permettrait aux CROSS de détecter ces navires en détresse
-dès les premiers signes et de pouvoir agir avant que le signal de détresse
-ne soit envoyé par l'équipage**.
+dès les premiers signes et de pouvoir agir avant même que le signal de détresse
+ne soit envoyé par l'équipage**. Cette capacité de réaction rapide permettrait
+ainsi de réduire le nombre d'accident et de sauver des vies.
