@@ -54,7 +54,7 @@
 
         src = null;
 
-        buildInputs = [ pkgs.unzip ];
+        buildInputs = [ pkgs.unzip pkgs.gnused ];
 
         unpackPhase = ":";
 
@@ -62,6 +62,11 @@
           # Extract and install Eisvogel template
           mkdir -p templates
           ${pkgs.unzip}/bin/unzip ${eisvogelTemplate} -d templates/
+
+          # Apply patch to modify author separator with tighter spacing
+          ${pkgs.gnused}/bin/sed -i \
+            's/\$for(author)\$\$author\$\$sep\$, \$endfor\$/\$for(author)\$\$author\$\$sep\$\\\\[-0.25em] \$endfor\$/g' \
+            templates/Eisvogel-3.2.1/eisvogel.latex
         '';
 
         installPhase = ''
