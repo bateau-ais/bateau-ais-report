@@ -33,7 +33,7 @@ Les solutions commerciales existantes, développées principalement par des entr
 Windward a notamment développé un partenariat avec Spire Global pour la validation de position AIS permettant de détecter les navires manipulant leurs transmissions [@PowerYourOrganization;@GlobalShipTrackinga].
 Ces solutions utilisent l'intelligence artificielle pour analyser de vastes quantités de données maritimes et identifier des anomalies impactant les opérations, détectant automatiquement les activités irrégulières sans intervention utilisateur [@PowerYourOrganization;@durgpalAIPoweredSolutionLaunched2024].
 
-Cependant, ces solutions propriétaires coûtent plusieurs dizaines de milliers d'euros par an pour les licences commerciales, donc insuffisamment accessibles aux organisations ne disposant pas de budgets conséquents, soit incompatibles avec les systèmes nationaux de surveillance.
+Cependant, ces solutions propriétaires peuvent coûter plusieurs dizaines de milliers d'euros par an pour les licences commerciales, donc insuffisamment accessibles aux organisations ne disposant pas de budgets conséquents, soit incompatibles avec les systèmes nationaux de surveillance.
 Le marché de l'intelligence commerciale dérivée de l'AIS peut être divisé en trois types d'acteurs [@VesselTrackingReveals] :
 
 - les fournisseurs de données AIS,
@@ -42,7 +42,7 @@ Le marché de l'intelligence commerciale dérivée de l'AIS peut être divisé e
 
 En 2025, le marché a connu une consolidation significative avec l'acquisition par Kpler de Spire Maritime pour 241 millions de dollars et par S&P Global de l'activité AIS d'ORBCOMM, démontrant la valeur stratégique de ces données [@asymmetrixSPPurchase2025].
 
-Ce manque de solution démontre une lacune capacitaire est particulièrement critique pour les nations moyennes, les capitaineries de ports régionaux, et les organisations ne disposant pas de budgets militaires conséquents, créant ainsi un besoin opérationnel urgent pour une solution accessible, performante et souveraine.
+Le manque de solutions abordables et extensibles démontre une lacune capacitaire est particulièrement critique pour les nations moyennes, les capitaineries de ports régionaux, et les organisations ne disposant pas de budgets conséquents, créant ainsi un besoin opérationnel urgent pour une solution accessible, performante et ouvvertes.
 
 ## Présentation de la solution proposée
 
