@@ -1,0 +1,37 @@
+--- eisvogel.latex.orig	2025-10-16 11:52:45.956627603 +0200
++++ eisvogel.latex	2025-10-16 11:53:35.749073701 +0200
+@@ -678,7 +678,7 @@
+ %
+ \usepackage{titling}
+ \title{$title$}
+-\author{$for(author)$$author$$sep$, $endfor$}
++\author{$for(author)$$author$$sep$\\[-0.35em] $endfor$}
+ \date{$date$}
+ 
+ %
+@@ -855,7 +855,6 @@
+   \clearpairofpagestyles
+   \ihead*{$if(header-left)$$header-left$$else$$title$$endif$}
+   \chead*{$if(header-center)$$header-center$$else$$endif$}
+-  \ohead*{$if(header-right)$$header-right$$else$$date$$endif$}
+   \ifoot*{$if(footer-left)$$footer-left$$else$$for(author)$$author$$sep$, $endfor$$endif$}
+   \cfoot*{$if(footer-center)$$footer-center$$else$$endif$}
+   \ofoot*{$if(footer-right)$$footer-right$$else$\thepage$endif$}
+@@ -927,7 +926,7 @@
+   {\Large \textsf{$subtitle$}}
+   $endif$
+   \vskip 2em
+-  \noindent {\Large \textsf{$for(author)$$author$$sep$, $endfor$} \vskip 0.6em \textsf{$date$}}
++  \noindent {\Large \textsf{$for(author)$$author$$sep$\\[-0.35em] $endfor$} \vskip 0.6em \textsf{$date$}}
+   \vfill
+ }
+ $else$
+@@ -940,7 +939,7 @@
+   {\Large \textsf{$subtitle$}}
+   $endif$
+   \vskip 2em
+-  \noindent {\Large \textsf{$for(author)$$author$$sep$, $endfor$}}
++  \noindent {\Large \textsf{$for(author)$$author$$sep$\\[-0.35em] $endfor$}}
+   \vfill
+ }
+ $endif$

@@ -6,7 +6,7 @@ Le transport maritime représente aujourd'hui l'épine dorsale du commerce mondi
 
 Cette dépendance critique aux routes maritimes s'accompagne d'une vulnérabilité croissante face aux cybermenaces, particulièrement celles ciblant l'Automatic Identification System (AIS), système devenu indispensable à la navigation moderne [@TransportMaritimeCNUCED2025].
 
-L'AIS, obligatoire pour tous les navires de plus de 300 tonneaux en navigation internationale depuis les amendements SOLAS de 2004, transmet en continu des données essentielles : position GPS, vitesse, cap, identité du navire et destination [@TranspondeursAIS;@TranspondeursAIS]. Ce système permet de fournir automatiquement des informations sur le navire aux autres navires et aux autorités côtières, garantissant ainsi une navigation sécurisée [@ServicesTraficMaritime].
+L'AIS, obligatoire pour tous les navires de plus de 300 tonneaux en navigation internationale depuis les amendements SOLAS de 2004, transmet en continu des données essentielles : position GPS, vitesse, cap, identité du navire et destination [@TranspondeursAIS]. Ce système permet de fournir automatiquement des informations sur le navire aux autres navires et aux autorités côtières, garantissant ainsi une navigation sécurisée [@ServicesTraficMaritime].
 
 Le contexte géopolitique actuel est marqué par une intensification préoccupante des attaques contre les infrastructures maritimes numériques, transformant les mers en nouveaux terrains de confrontation hybride.
 La Russie est régulièrement accusée de brouiller massivement les signaux GPS en mer Baltique, perturbant la navigation commerciale et aérienne.

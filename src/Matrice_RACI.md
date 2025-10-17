@@ -69,7 +69,7 @@
 
 | Personne | Composant Principal | Responsabilités PM Additionnelles | Focus Cyberdéfense | Livrables Clés |
 |----------|--------------------|---------------------------------|-------------------|----------------|
-| **Elouarn** | Parseur | — | Intégrité données AIS | Dataset validé & documenté |
-| **François** | Enrichisseur & Falsificateur | Validation conformité cyberdéfense | Simulation attaques AIS | Features + données adversariales |
-| **Quentin** | Entraînement Modèle | Gestion risques & communication | Robustesse modèle | Modèle optimisé & testé |
-| **Nils** | Dashboard & Benchmarks | Coordination équipe & intégration | Sécurité applicative | Dashboard + monitoring + documentation |
+| **Elouarn** | Parseur | Validation conformité cyberdéfense | Intégrité données AIS | Dataset validé & documenté |
+| **François** | Enrichisseur & Falsificateur | Coordination équipe & communication | Simulation attaques AIS | Features + données adversariales |
+| **Quentin** | Entraînement Modèle | Gestion risques | Robustesse modèle | Modèle optimisé & testé |
+| **Nils** | Dashboard & Benchmarks | Validation conformité cyberdéfense & intégration | Sécurité applicative | Dashboard + monitoring + documentation |
