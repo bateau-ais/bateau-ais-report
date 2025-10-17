@@ -46,9 +46,9 @@ Ce manque de solution démontre une lacune capacitaire est particulièrement cri
 
 ## Présentation de la solution proposée
 
-Face aux limites des outils actuels, notre équipe propose une solution ouverte, accessible et modulaire pour la détection de comportements maritimes anormaux à partir des trames AIS. Cette approche s’appuie sur trois piliers technologiques : l’intelligence artificielle, l’analyse statistique et la visualisation opérationnelle.
+Face aux limites des outils actuels, notre équipe propose une solution ouverte, accessible et modulaire pour la détection de comportements maritimes anormaux à partir des trames AIS.
 
-Notre solution exploite des flux AIS bruts, issus de différentes sources (satellite, terrestre, open-data), qu’elle nettoie et enrichit avant de les soumettre à plusieurs modèles de classification. Ces modèles — combinant apprentissage supervisé, non supervisé et méthodes statistiques — permettent de détecter des anomalies de comportement telles que :
+Notre solution exploite des flux AIS bruts qu’elle nettoie et enrichit avant de les soumettre à plusieurs modèles de classification. Ces modèles — combinant apprentissage supervisé, non supervisé et méthodes statistiques — permettent de détecter des anomalies de comportement communes [@ribeiroAISbasedMaritimeAnomaly2023] telles que :
 
 - le spoofing (falsification de position ou d’identité),
 - les coupures volontaires ou comportement de “dark ships”,
