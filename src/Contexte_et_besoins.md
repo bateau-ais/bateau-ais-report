@@ -28,7 +28,7 @@ Ces techniques sont utilisées pour masquer des activités illicites telles que 
 
 ## Analyse des besoins du marché
 
-Face à cette menace émergente et multiforme, les autorités maritimes civiles et militaires – CROSS (Centres Régionaux Opérationnels de Surveillance et de Sauvetage) en France, gardes-côtes, capitaineries portuaires, services de renseignement maritime – manquent d'outils abordables et extensible pour analyser ces anomalies en temps réel.
+Face à cette menace émergente et multiforme, les autorités maritimes civiles et militaires – CROSS (Centres Régionaux Opérationnels de Surveillance et de Sauvetage) en France, gardes-côtes, capitaineries portuaires, services de renseignement maritime – manquent d'outils abordables et extensibles pour analyser ces anomalies en temps réel.
 Les solutions commerciales existantes, développées principalement par des entreprises comme Windward, Spire Maritime ou Orbcomm, combinent données AIS satellitaires et terrestres pour offrir des capacités de détection d'anomalies [@turgeonAISDataProviders2024;@PowerYourOrganization].
 Windward a notamment développé un partenariat avec Spire Global pour la validation de position AIS permettant de détecter les navires manipulant leurs transmissions [@PowerYourOrganization;@GlobalShipTrackinga].
 Ces solutions utilisent l'intelligence artificielle pour analyser de vastes quantités de données maritimes et identifier des anomalies impactant les opérations, détectant automatiquement les activités irrégulières sans intervention utilisateur [@PowerYourOrganization;@durgpalAIPoweredSolutionLaunched2024].
