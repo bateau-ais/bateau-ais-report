@@ -28,20 +28,21 @@ Ces techniques sont utilisées pour masquer des activités illicites telles que 
 
 ## Analyse des besoins du marché
 
-Face à cette menace émergente et multiforme, les autorités maritimes civiles et militaires – CROSS (Centres Régionaux Opérationnels de Surveillance et de Sauvetage) en France, gardes-côtes, capitaineries portuaires, services de renseignement maritime – manquent cruellement d'outils adaptés pour détecter, visualiser et analyser ces anomalies en temps réel.
+Face à cette menace émergente et multiforme, les autorités maritimes civiles et militaires – CROSS (Centres Régionaux Opérationnels de Surveillance et de Sauvetage) en France, gardes-côtes, capitaineries portuaires, services de renseignement maritime – manquent d'outils abordables et extensible pour analyser ces anomalies en temps réel.
 Les solutions commerciales existantes, développées principalement par des entreprises comme Windward, Spire Maritime ou Orbcomm, combinent données AIS satellitaires et terrestres pour offrir des capacités de détection d'anomalies [@turgeonAISDataProviders2024;@PowerYourOrganization].
 Windward a notamment développé un partenariat avec Spire Global pour la validation de position AIS permettant de détecter les navires manipulant leurs transmissions [@PowerYourOrganization;@GlobalShipTrackinga].
 Ces solutions utilisent l'intelligence artificielle pour analyser de vastes quantités de données maritimes et identifier des anomalies impactant les opérations, détectant automatiquement les activités irrégulières sans intervention utilisateur [@PowerYourOrganization;@durgpalAIPoweredSolutionLaunched2024].
 
-Cependant, ces solutions propriétaires restent soit exorbitantes financièrement (plusieurs dizaines de milliers d'euros par an pour les licences commerciales), donc insuffisamment accessibles aux organisations ne disposant pas de budgets conséquents, soit incompatibles avec les systèmes nationaux de surveillance.
-Le marché de l'intelligence commerciale dérivée de l'AIS peut être divisé en trois types d'acteurs :
+Cependant, ces solutions propriétaires coûtent plusieurs dizaines de milliers d'euros par an pour les licences commerciales, donc insuffisamment accessibles aux organisations ne disposant pas de budgets conséquents, soit incompatibles avec les systèmes nationaux de surveillance.
+Le marché de l'intelligence commerciale dérivée de l'AIS peut être divisé en trois types d'acteurs [@VesselTrackingReveals] :
 
 - les fournisseurs de données AIS,
 - les nettoyeurs de données fournissant des produits de visualisation,
-- les fournisseurs d'intelligence commerciale haut de gamme [@VesselTrackingReveals].
+- les fournisseurs d'intelligence commerciale haut de gamme.
 
 En 2025, le marché a connu une consolidation significative avec l'acquisition par Kpler de Spire Maritime pour 241 millions de dollars et par S&P Global de l'activité AIS d'ORBCOMM, démontrant la valeur stratégique de ces données [@asymmetrixSPPurchase2025].
-Cette lacune capacitaire est particulièrement critique pour les nations moyennes, les capitaineries de ports régionaux, et les organisations ne disposant pas de budgets militaires conséquents, créant ainsi un besoin opérationnel urgent pour une solution accessible, performante et souveraine.
+
+Ce manque de solution démontre une lacune capacitaire est particulièrement critique pour les nations moyennes, les capitaineries de ports régionaux, et les organisations ne disposant pas de budgets militaires conséquents, créant ainsi un besoin opérationnel urgent pour une solution accessible, performante et souveraine.
 
 ## Présentation de la solution proposée
 
