@@ -33,7 +33,7 @@ Les solutions commerciales existantes, développées principalement par des entr
 Windward a notamment développé un partenariat avec Spire Global pour la validation de position AIS permettant de détecter les navires manipulant leurs transmissions [@PowerYourOrganization;@GlobalShipTrackinga].
 Ces solutions utilisent l'intelligence artificielle pour analyser de vastes quantités de données maritimes et identifier des anomalies impactant les opérations, détectant automatiquement les activités irrégulières sans intervention utilisateur [@PowerYourOrganization;@durgpalAIPoweredSolutionLaunched2024].
 
-Cependant, ces solutions propriétaires coûtent plusieurs dizaines de milliers d'euros par an pour les licences commerciales, donc insuffisamment accessibles aux organisations ne disposant pas de budgets conséquents, soit incompatibles avec les systèmes nationaux de surveillance.
+Cependant, ces solutions propriétaires peuvent coûter plusieurs dizaines de milliers d'euros par an pour les licences commerciales, donc insuffisamment accessibles aux organisations ne disposant pas de budgets conséquents, soit incompatibles avec les systèmes nationaux de surveillance.
 Le marché de l'intelligence commerciale dérivée de l'AIS peut être divisé en trois types d'acteurs [@VesselTrackingReveals] :
 
 - les fournisseurs de données AIS,
@@ -42,13 +42,13 @@ Le marché de l'intelligence commerciale dérivée de l'AIS peut être divisé e
 
 En 2025, le marché a connu une consolidation significative avec l'acquisition par Kpler de Spire Maritime pour 241 millions de dollars et par S&P Global de l'activité AIS d'ORBCOMM, démontrant la valeur stratégique de ces données [@asymmetrixSPPurchase2025].
 
-Ce manque de solution démontre une lacune capacitaire est particulièrement critique pour les nations moyennes, les capitaineries de ports régionaux, et les organisations ne disposant pas de budgets militaires conséquents, créant ainsi un besoin opérationnel urgent pour une solution accessible, performante et souveraine.
+Le manque de solutions abordables et extensibles démontre une lacune capacitaire est particulièrement critique pour les nations moyennes, les capitaineries de ports régionaux, et les organisations ne disposant pas de budgets conséquents, créant ainsi un besoin opérationnel urgent pour une solution accessible, performante et ouvvertes.
 
 ## Présentation de la solution proposée
 
-Face aux limites des outils actuels, notre équipe propose une solution ouverte, accessible et modulaire pour la détection de comportements maritimes anormaux à partir des trames AIS. Cette approche s’appuie sur trois piliers technologiques : l’intelligence artificielle, l’analyse statistique et la visualisation opérationnelle.
+Face aux limites des outils actuels, notre équipe propose une solution ouverte, accessible et modulaire pour la détection de comportements maritimes anormaux à partir des trames AIS.
 
-Notre solution exploite des flux AIS bruts, issus de différentes sources (satellite, terrestre, open-data), qu’elle nettoie et enrichit avant de les soumettre à plusieurs modèles de classification. Ces modèles — combinant apprentissage supervisé, non supervisé et méthodes statistiques — permettent de détecter des anomalies de comportement telles que :
+Notre solution exploite des flux AIS bruts qu’elle nettoie et enrichit avant de les soumettre à plusieurs modèles de classification. Ces modèles — combinant apprentissage supervisé, non supervisé et méthodes statistiques — permettent de détecter des anomalies de comportement communes [@ribeiroAISbasedMaritimeAnomaly2023] telles que :
 
 - le spoofing (falsification de position ou d’identité),
 - les coupures volontaires ou comportement de “dark ships”,
