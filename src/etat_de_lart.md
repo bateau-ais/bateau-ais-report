@@ -17,7 +17,7 @@ Cette dernière nous assure une base solide afin d'obtenir les informations
 importantes dans la recherche académique.
 
 Pour obtenir la première sélection d'article, nous nous sommes aidés de
-l'outil _Publish or perish_ [?] afin de ressortir 1000 articles sur les années
+l'outil _Publish or perish_ [@harzing-PublishPerish2016] afin de ressortir 1000 articles sur les années
 2020 à 2025.
 Les mots-clef utilisés ont été "AIS", "maritime cybersecurity", et "machine learning".
 
@@ -48,7 +48,7 @@ Parmi les approches spécifiques, Raj et Kumar (2025) mettent en œuvre un modè
 Cette technique permet de capturer efficacement les dépendances temporelles dans les trajectoires des navires.
 
 La sélection de caractéristiques via des méthodes statistiques, comme présenté par Visky et al. (2025), est également une piste importante pour améliorer la détection d'anomalies.
-L'analyse statistique aide à extraire les variables les plus discriminantes dans les jeux de données AIS afin d'alimenter des modèles d'IA plus performants [@viskyStatisticalAnalysisBasedFeature2025].
+L'analyse statistique aide à extraire les variables les plus discriminantes dans les jeux de données AIS afin d'alimenter des modèles d'IA plus performants [@viskyStatisticalAnalysisBasedFeature2025a].
 
 D'autres travaux étudient des méthodes avancées comme la topologie persistante pour l’identification de trajectoires géospatiales anormales, offrant une perspective originale sur la nature des anomalies spatiales en mer (Evans-Lee et Lamb, 2024) [@evans-leeIdentificationAnomalousGeospatial2024].
 
@@ -56,7 +56,7 @@ Enfin, il est important de mentionner la dimension plus large de la sécurité m
 Ces travaux soulignent la nécessité d’une défense coordonnée intégrant cybersécurité et sécurité opérationnelle.
 
 En résumé, les recherches récentes convergent vers des solutions hybrides mêlant intelligence artificielle avancée, analyse statistique rigoureuse et validation par données simulées et réelles.
-Ces approches permettent d’améliorer la détection d’anomalies AIS, facteur clé pour renforcer la cybersécurité maritime et la sûreté de la navigation [@pohontuRealtimeDetectionSpoofed2025; @millerArtificialIntelligenceMaritime2025; @nitishrajVesselTrajectoryRoute2025; @viskyStatisticalAnalysisBasedFeature2025; @evans-leeIdentificationAnomalousGeospatial2024; @jiangCurrentStatusBibliometricsBased2025; @klorDudeWheresThat2024]
+Ces approches permettent d’améliorer la détection d’anomalies AIS, facteur clé pour renforcer la cybersécurité maritime et la sûreté de la navigation [@pohontuRealtimeDetectionSpoofed2025; @millerArtificialIntelligenceMaritime2025; @nitishrajVesselTrajectoryRoute2025; @viskyStatisticalAnalysisBasedFeature2025a; @evans-leeIdentificationAnomalousGeospatial2024; @jiangCurrentStatusBibliometricsBased2025; @klorDudeWheresThat2024]
 
 ## Notre positionnement par rapport à l'existant
 

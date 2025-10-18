@@ -225,7 +225,7 @@ references:
   issued:
     - year: 2025
       month: 5
-      day: 16
+      day: 15
   language: fr
   title: >-
     En mer Rouge, des navires de commerce confrontés au brouillage GPS | Mer et
@@ -484,17 +484,37 @@ references:
   URL: >-
     https://fr.wikipedia.org/w/index.php?title=Flotte_fant%C3%B4me_russe&oldid=229517722
 
-- id: GlobalShipTrackinga
+- id: GlobalShipTracking
   accessed:
     - year: 2025
       month: 10
       day: 15
-  citation-key: GlobalShipTrackinga
+  citation-key: GlobalShipTracking
   title: 'Global ship tracking: Complete tracking from coast to deep ocean'
   type: webpage
   URL: https://www.kpler.com/product/maritime/kplerais
 
-- id: hossainEnhancingMarineRadar2024
+- id: harzing-PublishPerish2016
+  abstract: Explains the use of Publish or Perish and its metrics
+  accessed:
+    - year: 2025
+      month: 10
+      day: 17
+  author:
+    - family: Harzing -
+      given: Anne-Wil
+  citation-key: harzing-PublishPerish2016
+  container-title: Harzing.com
+  issued:
+    - year: 2016
+      month: 2
+      day: 6
+  language: en
+  title: Publish or Perish
+  type: webpage
+  URL: https://harzing.com/resources/publish-or-perish
+
+- id: hossainEnhancingMarineRadar2024a
   abstract: >-
     Marine radar systems are essential for maritime safety but are increasingly
     vulnerable to cyber-attacks. This research presents a method to improve
@@ -526,7 +546,7 @@ references:
       given: Hossen Asiful
     - family: Rahman
       given: Md. Mahbubur
-  citation-key: hossainEnhancingMarineRadar2024
+  citation-key: hossainEnhancingMarineRadar2024a
   container-title: >-
     2024 2nd International Conference on Information and Communication
     Technology (ICICT)
@@ -2120,7 +2140,7 @@ references:
   issued:
     - year: 2018
       month: 7
-      day: 12
+      day: 11
   language: en-US
   title: Implementing a Fleet Operations Center | Constant Tech
   type: webpage
@@ -2294,7 +2314,7 @@ references:
   URL: >-
     https://www.rivieramm.com/opinion/opinion/vessel-tracking-reveals-valuable-commercial-data-24098
 
-- id: viskyStatisticalAnalysisBasedFeature2025
+- id: viskyStatisticalAnalysisBasedFeature2025a
   abstract: >-
     A global trend in the progressive digitalisation of the world is affecting
     different industries, including the maritime transport sector. Electronic
@@ -2326,7 +2346,7 @@ references:
       given: Sokratis
     - family: Maennel
       given: Olaf
-  citation-key: viskyStatisticalAnalysisBasedFeature2025
+  citation-key: viskyStatisticalAnalysisBasedFeature2025a
   container-title: >-
     2025 IEEE 23rd World Symposium on Applied Machine Intelligence and
     Informatics (SAMI)
