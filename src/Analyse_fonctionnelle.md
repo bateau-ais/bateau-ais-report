@@ -11,7 +11,7 @@ Pour cela, nous partons des informations suivantes identifiées précédemment :
 
 Le diagramme « bête à corne » suivant permet de visualiser ces informations :
 
-INSERER IMAGE BETE A CORNE
+![alt text](bete_a_corne.jpg)
 
 Nous avons identifié les fonctions suivantes comme étant essentielles à notre projet 
 (FP = Fonction Principale, FC = Fonction Contrainte) :
