@@ -17,10 +17,10 @@ Nous avons identifié les fonctions suivantes comme étant essentielles à notre
 (FP = Fonction Principale, FC = Fonction Contrainte) :
 -	FP : la solution doit détecter automatiquement les anomalies
   de navigations au travers des trames AIS reçues ;
--	FC1 : traiter un volume massif de données de façon performante ;
+-	FC1 : traiter un volume important de données de façon performante ;
 -	FC2 : être modulaire et scalable ;
--	FC3 : créer un modèle généralisable (indépendant de la géographie) ;
--	FC4 : visualiser les résultats de façon user-friendly ;
+-	FC3 : créer un modèle généraliste (indépendant de la géographie) ;
+-	FC4 : visualiser les résultats de façon *user-friendly* (interface facile à comprendre) ;
 -	FC5 : permettre l’entrainement du modèle à partir de données falsifiées.
 
 Le tableau suivant permet de regrouper ces différentes fonctions.
@@ -29,8 +29,8 @@ Différents critères leurs sont associés afin de pouvoir déterminer si la fon
 | Fonction                          | Critères          | Niveau          | Flexibilité          |
 | :---------------------------------|:-----------------:|:---------------:|:--------------------:|
 | FP : la solution doit détecter automatiquement les anomalies de navigations au travers des trames AIS reçues. | Efficacité | Sécurité nautique | F0 |
-| FC1 : traiter un volume massif de données de façon performante. | Rapidité | Données | F0 |
-| FC2 : être modulaire et scalable. | Polyvalence | Programmation | F1 |
-| FC3 : créer un modèle généralisable (indépendant de la géographie). | Universalité | Pour tout le monde | F0 |
-| FC4 : visualiser les résultats de façon user-friendly. | Praticité | Pour tous les utilisateurs | F1 |
+| FC1 : traiter un volume important de données de façon performante. | Rapidité | Données | F1 |
+| FC2 : être modulaire et scalable. | Polyvalence | Programmation | F0 |
+| FC3 : créer un modèle généraliste (indépendant de la géographie). | Universalité | Pour tout le monde | F0 |
+| FC4 : visualiser les résultats de façon *user-friendly*. | Praticité | Pour tous les utilisateurs | F1 |
 | FC5 : permettre l’entrainement du modèle à partir de données falsifiées. | Reproductibilité | Entrainement | F0 |
