@@ -1,10 +1,6 @@
 # Architecture technique
 
 ```{.mermaid #fig:archi_technique}
----
-config:
-  layout: elk
----
 graph TB
     %% Légende
     LEGEND[
