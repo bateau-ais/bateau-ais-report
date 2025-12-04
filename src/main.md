@@ -1,13 +1,13 @@
 ---
 title:    Analyse automatisée des trames AIS pour la détection d’anomalies maritimes
-subtitle: Jalon 1
+subtitle: Jalon 2
 author: 
 - Noilou Quentin
 - Le Bail Elouarn
 - Veneny François
 - Dufour Nils
 keywords: [ais, marine, autonomous vessels, machine learning]
-date: 13 octobre 2025
+date: 4 novembre 2025
 lang: fr
 
 note_type: reference
