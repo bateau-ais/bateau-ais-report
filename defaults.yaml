@@ -1,6 +1,5 @@
 filters:
   - pandoc-include
-  - mermaid-filter
   - pandoc-crossref
   - citeproc
 standalone: true
@@ -9,7 +8,7 @@ template: eisvogel
 toc: true
 toc-depth: 3
 
-from: markdown+footnotes+table_captions+implicit_figures+link_attributes
+from: markdown+grid_tables+footnotes+multiline_tables+table_captions+implicit_figures+link_attributes
 
 pdf-engine: xelatex
 

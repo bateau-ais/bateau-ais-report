@@ -56,6 +56,8 @@ En offrant une détection en temps réel, adaptable et explicable, ce projet vis
 
 !include etat_de_lart.md
 
+!include Analyse_fonctionnelle.md
+
 !include archi_technique.md
 
 ```{=latex}
