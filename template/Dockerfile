@@ -7,6 +7,9 @@ FROM python:3.12-slim as dev
 
 WORKDIR /app
 
+# Installation de uv
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /usr/local/bin/uv
+
 # Installation des dépendances système
 RUN apt-get update && apt-get install -y \
     gcc \
@@ -14,10 +17,13 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Copier les fichiers de configuration Python
-COPY pyproject.toml ./
+COPY pyproject.toml uv.lock* ./
 
-# Installation des dépendances Python en mode éditable
-RUN pip install --no-cache-dir -e .[dev]
+# Configuration de uv pour utiliser le système Python
+ENV UV_SYSTEM_PYTHON=1
+
+# Installation des dépendances Python (dev)
+RUN uv sync --all-extras
 
 # Copier le reste du code
 COPY . .
@@ -26,7 +32,7 @@ COPY . .
 EXPOSE 8080
 
 # Commande par défaut pour le développement
-CMD ["python", "-m", "app.main"]
+CMD ["uv", "run", "python", "-m", "app.main"]
 
 # ============================================================================
 # Stage de production
@@ -35,19 +41,26 @@ FROM python:3.12-slim as prod
 
 WORKDIR /app
 
+# Installation de uv
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /usr/local/bin/uv
+
 # Installation des dépendances système minimales
 RUN apt-get update && apt-get install -y \
     --no-install-recommends \
+    ca-certificates \
     && rm -rf /var/lib/apt/lists/*
 
 # Créer un utilisateur non-root pour la sécurité
 RUN useradd -m -u 1000 appuser
 
 # Copier les fichiers de configuration Python
-COPY pyproject.toml ./
+COPY pyproject.toml uv.lock* ./
+
+# Configuration de uv
+ENV UV_SYSTEM_PYTHON=1
 
 # Installation des dépendances Python (sans dev)
-RUN pip install --no-cache-dir .
+RUN uv sync --no-dev
 
 # Copier le code applicatif
 COPY app ./app
@@ -62,4 +75,4 @@ USER appuser
 EXPOSE 8080
 
 # Commande par défaut pour la production
-CMD ["python", "-m", "app.main"]
+CMD ["uv", "run", "python", "-m", "app.main"]

@@ -19,6 +19,7 @@ Ce template fournit une base pour créer un nouveau module Python dans le systè
 ## Prérequis
 
 - Python 3.12+
+- [uv](https://github.com/astral-sh/uv) - Gestionnaire de paquets Python moderne
 - Docker et Docker Compose
 - Bibliothèque `almanach` (dépendance du projet NOVA)
 
@@ -55,13 +56,18 @@ docker compose up
 #### Option B: Sans Docker
 
 ```bash
-# Installer les dépendances
-pip install -e .[dev]
+# Installer uv si nécessaire
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Synchroniser les dépendances (dev)
+uv sync --all-extras
 
 # Lancer NATS séparément (voir section NATS ci-dessous)
 
 # Lancer le module
-python -m app.main
+uv run python -m app.main
+# ou simplement
+make run
 ```
 
 ### 4. Build production
@@ -156,30 +162,67 @@ docker run -p 4222:4222 -p 8222:8222 nats:2.10-alpine -js -m 8222
 
 ## Développement
 
+### Installation de uv
+
+```bash
+# Linux / macOS
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Windows
+powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+
+# Ou via pip
+pip install uv
+```
+
+### Gestion des dépendances
+
+```bash
+# Synchroniser les dépendances (dev)
+uv sync --all-extras
+# ou
+make sync
+
+# Production uniquement
+uv sync --no-dev
+# ou
+make install
+
+# Mettre à jour uv.lock
+uv lock
+# ou
+make lock
+```
+
 ### Tests
 
 ```bash
-# Installer avec les dépendances de développement
-pip install -e .[dev]
-
 # Lancer les tests
-pytest
+uv run pytest
+# ou
+make test
 
 # Avec couverture
-pytest --cov=app --cov-report=html
+uv run pytest --cov=app --cov-report=html
+# ou
+make test-cov
 ```
 
 ### Linting et formatage
 
 ```bash
-# Formatage avec Black
-black app/
+# Formatage avec Ruff
+uv run ruff format app/
 
 # Linting avec Ruff
-ruff check app/
+uv run ruff check app/
 
 # Type checking avec mypy
-mypy app/
+uv run mypy app/
+
+# Tout en une commande
+make lint
+make format
 ```
 
 ## Architecture du Module
