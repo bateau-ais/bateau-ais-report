@@ -3,7 +3,7 @@
 # ============================================================================
 # Stage de développement
 # ============================================================================
-FROM python:3.12-slim as dev
+FROM debian:bookworm-slim as dev
 
 WORKDIR /app
 
@@ -12,17 +12,15 @@ COPY --from=ghcr.io/astral-sh/uv:latest /uv /usr/local/bin/uv
 
 # Installation des dépendances système
 RUN apt-get update && apt-get install -y \
+    ca-certificates \
     gcc \
     git \
     && rm -rf /var/lib/apt/lists/*
 
 # Copier les fichiers de configuration Python
-COPY pyproject.toml uv.lock* ./
+COPY pyproject.toml uv.lock* .python-version* ./
 
-# Configuration de uv pour utiliser le système Python
-ENV UV_SYSTEM_PYTHON=1
-
-# Installation des dépendances Python (dev)
+# uv gère l'installation de Python et des dépendances
 RUN uv sync --all-extras
 
 # Copier le reste du code
@@ -37,7 +35,7 @@ CMD ["uv", "run", "python", "-m", "app.main"]
 # ============================================================================
 # Stage de production
 # ============================================================================
-FROM python:3.12-slim as prod
+FROM debian:bookworm-slim as prod
 
 WORKDIR /app
 
@@ -54,12 +52,9 @@ RUN apt-get update && apt-get install -y \
 RUN useradd -m -u 1000 appuser
 
 # Copier les fichiers de configuration Python
-COPY pyproject.toml uv.lock* ./
+COPY pyproject.toml uv.lock* .python-version* ./
 
-# Configuration de uv
-ENV UV_SYSTEM_PYTHON=1
-
-# Installation des dépendances Python (sans dev)
+# uv gère l'installation de Python et des dépendances (sans dev)
 RUN uv sync --no-dev
 
 # Copier le code applicatif

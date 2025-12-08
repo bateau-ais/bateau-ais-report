@@ -9,19 +9,23 @@ Ce template fournit une base pour créer un nouveau module Python dans le systè
 ├── app/
 │   ├── __init__.py          # Métadonnées du package
 │   └── main.py              # Point d'entrée avec exemples subscribe/publish
+├── tests/                   # Tests unitaires
 ├── Dockerfile               # Multi-stage Docker (dev + prod)
 ├── pyproject.toml           # Configuration Python avec almanach
+├── .python-version          # Version de Python gérée par uv
 ├── docker-compose.yml       # Configuration NATS + module
+├── Makefile                 # Commandes courantes
 ├── .dockerignore            # Fichiers à exclure du build Docker
 └── .gitignore               # Fichiers à exclure de Git
 ```
 
 ## Prérequis
 
-- Python 3.12+
-- [uv](https://github.com/astral-sh/uv) - Gestionnaire de paquets Python moderne
-- Docker et Docker Compose
+- [uv](https://github.com/astral-sh/uv) - Gestionnaire Python complet (gère Python + dépendances + points d'entrée)
+- Docker et Docker Compose (pour le déploiement)
 - Bibliothèque `almanach` (dépendance du projet NOVA)
+
+**Note**: `uv` gère l'installation de Python automatiquement, pas besoin de l'installer manuellement !
 
 ## Démarrage Rapide
 
@@ -170,15 +174,15 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # Windows
 powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
-
-# Ou via pip
-pip install uv
 ```
 
-### Gestion des dépendances
+**uv gère tout** : version de Python, dépendances, et environnements virtuels.
+
+### Gestion de Python et des dépendances
 
 ```bash
-# Synchroniser les dépendances (dev)
+# uv installe automatiquement la version de Python spécifiée dans .python-version
+# Synchroniser Python + dépendances (dev)
 uv sync --all-extras
 # ou
 make sync
@@ -192,6 +196,10 @@ make install
 uv lock
 # ou
 make lock
+
+# Installer une version spécifique de Python
+uv python install 3.12
+uv python pin 3.12  # Crée/met à jour .python-version
 ```
 
 ### Tests
@@ -223,6 +231,24 @@ uv run mypy app/
 # Tout en une commande
 make lint
 make format
+```
+
+### Outils de développement
+
+Le template inclut ces outils dans les dépendances dev :
+
+- **ruff** : Linter et formatteur ultra-rapide (remplace black, isort, flake8, etc.)
+- **mypy** : Vérification de types statique
+- **ipython** : REPL interactif amélioré
+- **pytest** : Framework de tests avec support async et couverture
+
+```bash
+# Lancer IPython avec le contexte du projet
+uv run ipython
+
+# Dans IPython, vous pouvez importer directement vos modules
+>>> from app.main import almanach
+>>> from almanach.types import AISPacket
 ```
 
 ## Architecture du Module
