@@ -1,27 +1,16 @@
-version: '3.8'
-
 services:
-  # Serveur NATS
   nats:
     image: nats:2.10-alpine
     ports:
-      - "4222:4222"  # Client connections
-      - "8222:8222"  # HTTP monitoring
-      - "6222:6222"  # Cluster connections
-    command: >
-      -js
-      -m 8222
-      --max_payload 8388608
-    networks:
-      - nova-network
+      - "4222:4222"
+      - "8222:8222"
+    command: -js -m 8222
     healthcheck:
       test: ["CMD", "wget", "--spider", "-q", "http://localhost:8222/healthz"]
       interval: 10s
       timeout: 5s
       retries: 3
-      start_period: 10s
 
-  # Module AIS (exemple)
   ais-module:
     build:
       context: .
@@ -30,15 +19,8 @@ services:
       nats:
         condition: service_healthy
     environment:
-      - NATS_URL=nats://nats:4222
+      - NATS_URL=tcp://nats:4222
       - LOG_LEVEL=INFO
-    volumes:
-      # Volume pour le développement hot-reload
-      - ./app:/app/app
-    networks:
-      - nova-network
+      - TOPIC_INPUT=ais.raw.*
+      - TOPIC_OUTPUT=ais.processed
     restart: unless-stopped
-
-networks:
-  nova-network:
-    driver: bridge

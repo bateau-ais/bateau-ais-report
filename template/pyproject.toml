@@ -6,7 +6,11 @@ requires-python = ">=3.12"
 dependencies = [
     "almanach>=0.1.0",
     "pydantic>=2.0.0",
+    "python-dotenv>=1.0.0",
 ]
+
+[project.scripts]
+bateau-ais-module = "app.main:main"
 
 [project.optional-dependencies]
 dev = [
