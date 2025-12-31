@@ -2,3 +2,4 @@
 *.err
 result
 .vscode
+nova-template-clean.tar.gz
