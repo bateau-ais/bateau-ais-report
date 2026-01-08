@@ -6,42 +6,48 @@
     flake-utils.url = "github:numtide/flake-utils";
   };
 
-  outputs = { nixpkgs, flake-utils, ... }:
+  outputs = {
+    nixpkgs,
+    flake-utils,
+    ...
+  }:
     flake-utils.lib.eachDefaultSystem (system: let
       pkgs = nixpkgs.legacyPackages.${system};
       tex = pkgs.texlive.combine {
-          inherit (pkgs.texlive) 
-            scheme-medium
-            adjustbox
-            babel-german
-            background
-            bidi
-            collectbox
-            csquotes
-            everypage
-            filehook
-            floatrow
-            footmisc
-            footnotebackref
-            framed
-            fvextra
-            graphics
-            letltxmacro
-            ly1
-            mdframed
-            mweights
-            needspace
-            pagecolor
-            sourcecodepro
-            sourcesanspro
-            titling
-            ucharcat
-            ulem
-            unicode-math
-            upquote
-            xecjk
-            xurl
-            zref;
+        inherit
+          (pkgs.texlive)
+          scheme-medium
+          adjustbox
+          babel-german
+          background
+          bidi
+          collectbox
+          csquotes
+          everypage
+          filehook
+          floatrow
+          footmisc
+          footnotebackref
+          framed
+          fvextra
+          graphics
+          letltxmacro
+          ly1
+          mdframed
+          mweights
+          needspace
+          pagecolor
+          sourcecodepro
+          sourcesanspro
+          titling
+          ucharcat
+          ulem
+          unicode-math
+          upquote
+          xecjk
+          xurl
+          zref
+          ;
       };
 
       eisvogelTemplate = pkgs.fetchurl {
@@ -54,7 +60,7 @@
 
         src = null;
 
-        buildInputs = [ pkgs.unzip pkgs.gnupatch ];
+        buildInputs = [pkgs.unzip pkgs.gnupatch];
 
         unpackPhase = ":";
 
@@ -75,9 +81,16 @@
       };
 
       pandoc-wrapped = pkgs.writeShellScriptBin "pandoc" ''
-        exec ${pkgs.pandoc}/bin/pandoc --data-dir=${pandoc-template}/share/pandoc "$@"
+        exec ${pkgs.pandoc}/bin/pandoc \
+          --data-dir=${pkgs.symlinkJoin {
+          name = "pandoc-data-dir";
+          paths = [
+            (pandoc-template + "/share/pandoc")
+          ];
+        }} \
+          "$@"
       '';
-      
+
       buildInputs = with pkgs; [
         pandoc-wrapped
         haskellPackages.pandoc-crossref
@@ -124,12 +137,12 @@
 
           runHook postBuild
         '';
-        
+
         installPhase = ''
           mkdir -p $out
           cp -r dist/* $out/
         '';
-        
+
         phases = ["unpackPhase" "buildPhase" "installPhase"];
       };
     });
