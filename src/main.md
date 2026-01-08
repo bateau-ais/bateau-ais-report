@@ -60,6 +60,14 @@ En offrant une détection en temps réel, adaptable et explicable, ce projet vis
 
 !include archi_technique.md
 
+!include poc.md
+
+!include mise_en_oeuvre.md
+
+!include analyse_evaluation.md
+
+!include travaux_futurs.md
+
 ```{=latex}
 \onecolumn
 ```
