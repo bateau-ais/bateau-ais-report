@@ -139,12 +139,11 @@ analyzer:
 
 ### Topics et flux de données
 
-| Topic | Producteur | Consommateur | Format |
-|-------|------------|--------------|--------|
-| `nova.parsed` | Parser | Enricher | ParsedAISMessage |
-| `nova.enriched` | Enricher | Analyzer | EnrichedAISMessage |
-| `nova.analyzed` | Analyzer | Fusioner | AnalysisResult |
-| `nova.fused` | Fusioner | Visualizer | FusedAlert |
+Le flux de données NATS suit le pipeline :
+- `nova.parsed` (Parser → Enricher) : ParsedAISMessage
+- `nova.enriched` (Enricher → Analyzer) : EnrichedAISMessage
+- `nova.analyzed` (Analyzer → Fusioner) : AnalysisResult
+- `nova.fused` (Fusioner → Visualizer) : FusedAlert
 
 ### Traçabilité avec UUID
 
@@ -182,13 +181,11 @@ uv run python -m app.main
 
 Tous les seuils sont documentés avec justifications scientifiques :
 
-| Critère | Seuil | Source |
-|---------|-------|--------|
-| Z-score vitesse | 2.5σ | Laxhammar et al. 2009 |
-| Z-score cap | 2.0σ | Pallotta et al. 2013 |
-| Speed spike | ±5 kt | IMO SOLAS V/19 |
-| Heading change | >90° | COLREGS Rule 8(b) |
-| Accélération | >1.0 kt/min | RINA 2015 |
-| Score anomalie | ≥ 0.6 | ROC optimized |
+- **Z-score vitesse** : 2.5σ (Laxhammar et al. 2009)
+- **Z-score cap** : 2.0σ (Pallotta et al. 2013)
+- **Speed spike** : ±5 kt (IMO SOLAS V/19)
+- **Heading change** : >90° (COLREGS Rule 8b)
+- **Accélération** : >1.0 kt/min (RINA 2015)
+- **Score anomalie** : ≥0.6 (ROC optimized)
 
 Cette approche garantit la **transparence scientifique** et la **reproductibilité** des résultats.

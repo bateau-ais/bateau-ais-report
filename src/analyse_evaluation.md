@@ -6,12 +6,16 @@
 
 Les tests sur le dataset AIS Maritime (1M+ messages) donnent les résultats suivants :
 
+```{=latex}
+\onecolumn
+```
+
 | Métrique | Valeur | Objectif | Statut |
 |----------|--------|----------|--------|
-| Latence moyenne (bout-en-bout) | 15-22ms | <100ms | ✅ |
-| Throughput | 850-1100 msg/s | >500 msg/s | ✅ |
-| Mémoire totale | ~350MB | <1GB | ✅ |
-| CPU (moyenne) | 15-25% | <50% | ✅ |
+| Latence moyenne (bout-en-bout) | 15-22ms | <100ms | OK |
+| Throughput | 850-1100 msg/s | >500 msg/s | OK |
+| Mémoire totale | ~350MB | <1GB | OK |
+| CPU (moyenne) | 15-25% | <50% | OK |
 
 **Note** : Tests effectués sur machine standard (8 cores, 16GB RAM)
 
@@ -25,6 +29,10 @@ Les tests sur le dataset AIS Maritime (1M+ messages) donnent les résultats suiv
 | Fusioner | 4-7ms | ~100MB |
 
 L'**Enricher** est le module le plus gourmand en mémoire car il maintient l'historique des navires en cache Redis.
+
+```{=latex}
+\twocolumn
+```
 
 ## Qualité de détection
 
@@ -46,6 +54,10 @@ Tests sur dataset augmenté avec 500 anomalies injectées manuellement :
 
 ### Analyse par type d'anomalie
 
+```{=latex}
+\onecolumn
+```
+
 | Type | Détections | Rappel | Faux positifs |
 |------|------------|--------|---------------|
 | Vitesse excessive (>50kt) | 150/150 | 100% | 0 |
@@ -55,9 +67,13 @@ Tests sur dataset augmenté avec 500 anomalies injectées manuellement :
 
 **Observations** :
 
-✅ **Excellentes performances** sur anomalies évidentes (vitesse impossible, téléportation)  
-⚠️ **Faux positifs** sur accélération : manœuvres d'urgence légitimes parfois flaggées  
-⚠️ **Faux négatifs** sur accélération : seuil de 1.0 kt/min peut-être trop élevé pour petits navires
+**Excellentes performances** sur anomalies évidentes (vitesse impossible, téléportation)  
+**Faux positifs** sur accélération : manœuvres d'urgence légitimes parfois flaggées  
+**Faux négatifs** sur accélération : seuil de 1.0 kt/min peut-être trop élevé pour petits navires
+
+```{=latex}
+\twocolumn
+```
 
 ## Limitations identifiées
 
@@ -97,49 +113,39 @@ Tests sur dataset augmenté avec 500 anomalies injectées manuellement :
 
 ### Forces
 
-✅ **Seuils justifiés** : Chaque seuil est sourcé par une publication scientifique ou standard maritime (IMO, COLREGS)
+**Seuils justifiés** : Chaque seuil est sourcé par une publication scientifique ou standard maritime (IMO, COLREGS)
 
-✅ **Transparence** : Décisions explicables avec raisons détaillées (`anomaly_reasons`)
+**Transparence** : Décisions explicables avec raisons détaillées (`anomaly_reasons`)
 
-✅ **Reproductibilité** : Code open source, dataset public, seuils documentés
+**Reproductibilité** : Code open source, dataset public, seuils documentés
 
-✅ **Temps quasi-réel** : Latence <25ms permet surveillance opérationnelle
+**Temps quasi-réel** : Latence <25ms permet surveillance opérationnelle
 
 ### Faiblesses
 
-⚠️ **Hypothèse gaussienne** : Suppose distribution normale des comportements, peut ne pas tenir pour tous les navires
+**Hypothèse gaussienne** : Suppose distribution normale des comportements, peut ne pas tenir pour tous les navires
 
-⚠️ **Pas de contexte météo** : Tempêtes peuvent fausser les seuils (accélération/vitesse erratique légitime)
+**Pas de contexte météo** : Tempêtes peuvent fausser les seuils (accélération/vitesse erratique légitime)
 
-⚠️ **Spoofing GPS sophistiqué** : Détecte les impossibilités physiques mais pas le spoofing qui respecte les contraintes
+**Spoofing GPS sophistiqué** : Détecte les impossibilités physiques mais pas le spoofing qui respecte les contraintes
 
-⚠️ **Pas de prédiction** : Détection a posteriori uniquement, pas de prévision de trajectoires futures
+**Pas de prédiction** : Détection a posteriori uniquement, pas de prévision de trajectoires futures
 
 ## Cas d'usage validés
 
 Sur la base des résultats, le système est **recommandé** pour :
 
-✅ **Surveillance côtière** : Détection temps quasi-réel pour investigation humaine  
-✅ **Analyse post-incident** : Reconstruction et analyse de trajectoires suspectes  
-✅ **Recherche académique** : Benchmark pour nouveaux algorithmes  
-✅ **Formation opérateurs** : Système d'alerte pour entraînement
+**Surveillance côtière** : Détection temps quasi-réel pour investigation humaine  
+**Analyse post-incident** : Reconstruction et analyse de trajectoires suspectes  
+**Recherche académique** : Benchmark pour nouveaux algorithmes  
+**Formation opérateurs** : Système d'alerte pour entraînement
 
 Le système est **déconseillé** pour :
 
-❌ **Décisions automatiques critiques** : Taux de faux positifs nécessite validation humaine  
-❌ **Application de sanctions automatiques** : Risque d'erreur trop élevé
+**Décisions automatiques critiques** : Taux de faux positifs nécessite validation humaine  
+**Application de sanctions automatiques** : Risque d'erreur trop élevé
 
 ## Comparaison état de l'art
-
-Par rapport aux systèmes existants (surveyor, VesselWatch, MarineTraffic) :
-
-| Critère | NOVA | Systèmes commerciaux |
-|---------|------|---------------------|
-| **Transparence** | ✅ Seuils sourcés | ❌ "Boîte noire" |
-| **Open source** | ✅ GPL v3 | ❌ Propriétaire |
-| **Latence** | ✅ <25ms | ⚠️ 100-500ms |
-| **Spoofing GPS** | ⚠️ Basique | ✅ Avancé |
-| **ML avancé** | ❌ Stats uniquement | ✅ LSTM/CNN |
 
 **Conclusion** : NOVA se positionne comme solution **académique** et **transparente** plutôt que concurrent commercial direct.
 

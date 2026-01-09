@@ -80,34 +80,7 @@ Les seuils sont **fixes** et ne tiennent pas compte du type de navire :
 
 ### Solution proposée
 
-Utiliser le champ `vessel_type` (AIS type code) pour appliquer des seuils adaptés :
-
-| Type navire | Code AIS | Vitesse max | Seuil accélération |
-|-------------|----------|-------------|-------------------|
-| Cargo | 70-79 | 25 kt | 0.8 kt/min |
-| Tanker | 80-89 | 18 kt | 0.6 kt/min |
-| Passenger | 60-69 | 35 kt | 1.2 kt/min |
-| High-speed craft | 40-49 | 50 kt | 1.5 kt/min |
-| Fishing | 30 | 20 kt | 1.0 kt/min |
-
-### Implémentation
-
-Modifier `analyzer/constants.py` :
-
-```python
-VESSEL_TYPE_THRESHOLDS = {
-    "cargo": {"max_speed": 25.0, "max_accel": 0.8},
-    "tanker": {"max_speed": 18.0, "max_accel": 0.6},
-    # ...
-}
-```
-
-Adapter `statistical_model.py` pour sélectionner seuils dynamiquement :
-
-```python
-vessel_category = get_vessel_category(msg.vessel_type)
-threshold = VESSEL_TYPE_THRESHOLDS[vessel_category]
-```
+Utiliser le champ `vessel_type` (AIS type code) pour appliquer des seuils adaptés par type de navire (cargo, tanker, passenger, etc.)
 
 **Effort estimé** : 2-3 jours
 
@@ -272,14 +245,5 @@ Satellite → Parser-Sat ─┘
 ---
 
 ## Priorisation recommandée
-
-| Priorité | Travail | Impact | Effort | ROI |
-|----------|---------|--------|--------|-----|
-| **P0** | Seuils adaptatifs | Élevé | 2-3j | ⭐⭐⭐⭐⭐ |
-| **P1** | Optimisation zones denses | Moyen | 1 sem | ⭐⭐⭐⭐ |
-| **P1** | Interface visualisation | Élevé | 3 sem | ⭐⭐⭐⭐ |
-| **P2** | Intégration météo | Moyen | 1 sem | ⭐⭐⭐ |
-| **P3** | LSTM détection | Élevé | 2 sem | ⭐⭐⭐ |
-| **P4** | Fusion multi-capteurs | Très élevé | 8 sem | ⭐⭐ |
 
 **Recommandation** : Commencer par **P0** (seuils adaptatifs) pour gains immédiats, puis **P1** (optimisation + visualisation) pour utilisabilité opérationnelle.

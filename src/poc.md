@@ -58,7 +58,7 @@ Le système a été testé avec des anomalies injectées manuellement :
 
 Le POC confirme la validité de l'approche :
 
-✅ NATS gère efficacement le flux de messages avec latence acceptable  
-✅ La détection statistique fonctionne pour les anomalies évidentes  
-✅ L'architecture modulaire permet un développement indépendant  
-✅ MessagePack réduit la taille des messages de ~45% vs JSON
+- NATS gère efficacement le flux de messages avec latence acceptable  
+- La détection statistique fonctionne pour les anomalies évidentes  
+- L'architecture modulaire permet un développement indépendant  
+- MessagePack réduit la taille des messages de ~45% vs JSON

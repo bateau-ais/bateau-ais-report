@@ -3,7 +3,7 @@ filters:
   - pandoc-crossref
   - citeproc
 standalone: true
-template: eisvogel
+# template: eisvogel
 
 toc: true
 toc-depth: 3

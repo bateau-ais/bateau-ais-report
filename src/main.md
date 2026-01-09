@@ -21,8 +21,8 @@ listings-no-page-break: false
 code-block-font-size: \scriptsize
 fontsize: 10pt
 colorlinks: ff0d8a
-mainfont: Overpass Nerd Font
-sansfont: Overpass Nerd Font
+mainfont: DejaVu Sans
+sansfont: DejaVu Sans
 linkcolor: cyan
 urlcolor: cyan
 
@@ -36,8 +36,8 @@ toc-own-page: true
 ---
 
 ```{=latex}
-\setlength{\columnsep}{1.2cm}
-\twocolumn
+%\setlength{\columnsep}{1.2cm}
+%\twocolumn
 ```
 
 # Introduction
