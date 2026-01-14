@@ -36,6 +36,7 @@
           mdframed
           mweights
           needspace
+          placeins
           pagecolor
           sourcecodepro
           sourcesanspro

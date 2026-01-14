@@ -54,8 +54,6 @@
 | 6.4 Gestion versions, CI/CD & déploiement                            | C       | C            | C       | **A/R**     |
 +----------------------------------------------------------------------+---------+--------------+---------+-------------+
 
----
-
 ## Légende RACI
 
 - **A** = Accountable (Responsable final / Décideur)
@@ -63,13 +61,13 @@
 - **C** = Consulted (Consulté pour avis)
 - **I** = Informed (Informé des résultats)
 
----
-
 ## Résumé des Responsabilités
 
-| Personne | Composant Principal | Responsabilités PM Additionnelles | Focus Cyberdéfense | Livrables Clés |
-|----------|--------------------|---------------------------------|-------------------|----------------|
-| **Elouarn** | Parseur | Validation conformité cyberdéfense | Intégrité données AIS | Dataset validé & documenté |
-| **François** | Enrichisseur & Falsificateur | Coordination équipe & communication | Simulation attaques AIS | Features + données adversariales |
-| **Quentin** | Entraînement Modèle | Gestion risques | Robustesse modèle | Modèle optimisé & testé |
-| **Nils** | Dashboard & Benchmarks | Validation conformité cyberdéfense & intégration | Sécurité applicative | Dashboard + monitoring + documentation |
++---------------+-------------------------------+---------------------------------------------------+--------------------------+-----------------------------------------+
+|  Personne     |  Composant Principal          |  Responsabilités PM Additionnelles                |  Focus Cyberdéfense      |  Livrables Clés                         |
++---------------+-------------------------------+---------------------------------------------------+--------------------------+-----------------------------------------+
+|  **Elouarn**  |  Parseur                      |  Validation conformité cyberdéfense               |  Intégrité données AIS   |  Dataset validé & documenté             |
+|  **François** |  Enrichisseur & Falsificateur |  Coordination équipe & communication              |  Simulation attaques AIS |  Features + données adversariales       |
+|  **Quentin**  |  Entraînement Modèle          |  Gestion risques                                  |  Robustesse modèle       |  Modèle optimisé & testé                |
+|  **Nils**     |  Dashboard & Benchmarks       |  Validation conformité cyberdéfense & intégration |  Sécurité applicative    |  Dashboard + monitoring + documentation |
++---------------+-------------------------------+---------------------------------------------------+--------------------------+-----------------------------------------+

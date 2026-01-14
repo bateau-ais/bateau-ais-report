@@ -21,12 +21,7 @@ Les tests sur le dataset AIS Maritime (1M+ messages) donnent les résultats suiv
 
 ### Performances par module
 
-| Module | Latence moyenne | Mémoire |
-|--------|----------------|---------|
-| Parser | 2-4ms | ~50MB |
-| Enricher | 5-8ms | ~120MB |
-| Analyzer | 3-6ms | ~80MB |
-| Fusioner | 4-7ms | ~100MB |
+Voir le Tableau @tbl:analyse_evaluation:perfs-par-module.
 
 L'**Enricher** est le module le plus gourmand en mémoire car il maintient l'historique des navires en cache Redis.
 
@@ -40,10 +35,7 @@ L'**Enricher** est le module le plus gourmand en mémoire car il maintient l'his
 
 Tests sur dataset augmenté avec 500 anomalies injectées manuellement :
 
-|  | Prédit Normal | Prédit Anomalie |
-|---|--------------|-----------------|
-| **Réel Normal** | 9,420 (TN) | 85 (FP) |
-| **Réel Anomalie** | 32 (FN) | 468 (TP) |
+Voir le Tableau @tbl:analyse_evaluation:matrice-confusion.
 
 **Métriques de classification** :
 
@@ -147,6 +139,10 @@ Le système est **déconseillé** pour :
 
 ## Comparaison état de l'art
 
+Par rapport aux systèmes existants (surveyor, VesselWatch, MarineTraffic) :
+
+Voir le Tableau @tbl:analyse_evaluation:comparaison-etat-art.
+
 **Conclusion** : NOVA se positionne comme solution **académique** et **transparente** plutôt que concurrent commercial direct.
 
 ## Pistes d'amélioration
@@ -157,3 +153,60 @@ Les résultats identifient plusieurs axes d'optimisation (détaillés dans secti
 2. **Intégration météo** pour contextualiser les anomalies
 3. **LSTM** pour spoofing sophistiqué
 4. **Optimisation performances** pour zones denses
+
+```{=latex}
+\onecolumn
+```
+
+
+| Métrique                       | Valeur         | Objectif   | Statut |
+|--------------------------------|----------------|------------|--------|
+| Latence moyenne (bout-en-bout) | 15-22ms        | <100ms     | ✅     |
+| Throughput                     | 850-1100 msg/s | >500 msg/s | ✅     |
+| Mémoire totale                 | ~350MB         | <1GB       | ✅     |
+| CPU (moyenne)                  | 15-25%         | <50%       | ✅     |
+
+: Métriques de performance {#tbl:analyse_evaluation:metriques-perf}
+
+
+| Module   | Latence moyenne | Mémoire |
+|----------|-----------------|---------|
+| Parser   | 2-4ms           | ~50MB   |
+| Enricher | 5-8ms           | ~120MB  |
+| Analyzer | 3-6ms           | ~80MB   |
+| Fusioner | 4-7ms           | ~100MB  |
+
+: Performances par module {#tbl:analyse_evaluation:perfs-par-module}
+
+
+|                   | Prédit Normal | Prédit Anomalie |
+|-------------------|---------------|-----------------|
+| **Réel Normal**   | 9,420 (TN)    | 85 (FP)         |
+| **Réel Anomalie** | 32 (FN)       | 468 (TP)        |
+
+: Matrice de confusion {#tbl:analyse_evaluation:matrice-confusion}
+
+
+| Type                         | Détections | Rappel | Faux positifs |
+|------------------------------|------------|--------|---------------|
+| Vitesse excessive (>50kt)    | 150/150    | 100%   | 0             |
+| Téléportation (Δv >30kt)     | 142/145    | 97.9%  | 2             |
+| Changement cap brutal (>90°) | 98/100     | 98%    | 15            |
+| Accélération excessive       | 78/105     | 74.3%  | 68            |
+
+: Analyse par type d'anomalie {#tbl:analyse_evaluation:analyse-par-type}
+
+
+| Critère          | NOVA                | Systèmes commerciaux |
+|------------------|---------------------|----------------------|
+| **Transparence** | ✅ Seuils sourcés   | ❌ "Boîte noire"     |
+| **Open source**  | ✅ GPL v3           | ❌ Propriétaire      |
+| **Latence**      | ✅ <25ms            | ⚠️ 100-500ms          |
+| **Spoofing GPS** | ⚠️ Basique           | ✅ Avancé            |
+| **ML avancé**    | ❌ Stats uniquement | ✅ LSTM/CNN          |
+
+: Comparaison état de l'art {#tbl:analyse_evaluation:comparaison-etat-art}
+
+```{=latex}
+\twocolumn
+```

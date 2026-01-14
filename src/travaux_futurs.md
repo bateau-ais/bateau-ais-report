@@ -14,10 +14,17 @@ L'approche actuelle (statistique + détection de spoofing basique) fonctionne bi
 
 **Principe** : Entraîner un LSTM sur trajectoires **normales** uniquement. Les trajectoires anormales seraient alors détectées.
 
-```
-Séquence 20 msg AIS → LSTM Encoder → Latent → LSTM Decoder → Reconstruction
-                                         ↓
-                            Si erreur > seuil → Anomalie
+```mermaid
+flowchart LR
+    A[Séquence 20 msg AIS] --> B[LSTM Encoder]
+    B --> C[Latent]
+    C --> D[LSTM Decoder]
+    D --> E[Reconstruction]
+
+    E --> F[Erreur de reconstruction]
+    F --> G{Erreur > seuil ?}
+    G -- Oui --> H[Anomalie]
+    G -- Non --> I[Trajectoire normale]
 ```
 
 ### Dataset d'entraînement
@@ -60,13 +67,21 @@ Utiliser le champ relatif au type de navire dans les trames AIS pour adapter les
 
 Exemple :
 
-| Type navire | Code AIS | Vitesse max | Seuil accélération |
-|-------------|----------|-------------|-------------------|
-| Cargo | 70-79 | 25 kt | 0.8 kt/min |
-| Tanker | 80-89 | 18 kt | 0.6 kt/min |
-| Passenger | 60-69 | 35 kt | 1.2 kt/min |
-| High-speed craft | 40-49 | 50 kt | 1.5 kt/min |
-| Fishing | 30 | 20 kt | 1.0 kt/min |
+```{=latex}
+\onecolumn
+```
+
+| Type navire      | Code AIS | Vitesse max | Seuil accélération |
+|------------------|----------|-------------|--------------------|
+| Cargo            | 70-79    | 25 kt       | 0.8 kt/min         |
+| Tanker           | 80-89    | 18 kt       | 0.6 kt/min         |
+| Passenger        | 60-69    | 35 kt       | 1.2 kt/min         |
+| High-speed craft | 40-49    | 50 kt       | 1.5 kt/min         |
+| Fishing          | 30       | 20 kt       | 1.0 kt/min         |
+
+```{=latex}
+\twocolumn
+```
 
 ## 3. Intégration données météorologiques
 
@@ -124,7 +139,6 @@ Actuellement, NOVA utilise **uniquement AIS**. Une piste d'amélioration du proj
 - Corrélation image satellite/AIS pour détecter AIS falsifié
 
 **Données VTS** (Vessel Traffic Service) :
-- Validation croisée avec données officielles
 - Validation croisée avec données officielles
 - Intégration zones réglementées
 
